@@ -1,0 +1,11 @@
+﻿create table Coordinates (
+	Location_no int not null,
+	Location_lat varchar(20) not null,
+	Location_lng varchar(20) not null,
+
+);
+
+create table Addresses(
+	Location_no int not null,
+	Location_address varchar(30) not null,
+);

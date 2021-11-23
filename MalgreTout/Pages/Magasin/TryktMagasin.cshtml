@@ -1,0 +1,71 @@
+﻿@page
+@model MalgreTout.Pages.TryktMagasinModel
+@{ ViewData["Title"] = "Trykt magasin"; }
+<head>
+	<link rel="stylesheet" type="text/css" href="./style.css" /> <!-- gør intet? -->
+	<script src="./index.js"></script>
+</head>
+<body>
+	<h2>Google Maps InfoWindow Test</h2>
+	<!--The div element for the map -->
+	<div id="map" style="width: 640px; height: 480px;"></div>
+
+	<!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly"
+			async></script>
+</body>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+		initMap();
+	});
+	// Initialize and add the map
+	function initMap() {
+		// The locations
+		const locations = [
+			{
+				"title": 'Zealand',
+				"description": 'Zealand skole',
+				"lat": '55.6321309',
+				"lng": '12.0793064'
+			},
+			{
+				"title": 'Roskilde',
+				"description": 'Roskilde station <br> test',
+				"lat": '55.6386269',
+				"lng": '12.0847532'
+			}
+		];
+
+		// The map, centered at Zealand
+		const map = new google.maps.Map(document.getElementById("map"), {
+			zoom: 14,
+			center: { lat: 55.6321309, lng: 12.0793064 },
+		});
+
+		var infoWindow = new google.maps.InfoWindow({
+			content: "",
+			disableAutoPan: true,
+		});
+
+		// The marker, positioned at Zealand and Roskilde station
+		for (i = 0; i < locations.length; i++) {
+			var data = locations[i]
+			var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+			var marker = new google.maps.Marker({
+				position: myLatlng,
+				map: map,
+				title: data.title,
+				icon: "https://i.imgur.com/zYC6km0.png",
+
+			});
+
+			(function (marker, data) {
+				google.maps.event.addListener(marker, "click", function (e) {
+					infoWindow.setContent(data.description);
+					infoWindow.open(map, marker);
+				});
+			})(marker, data);
+		}
+	}
+</script>
