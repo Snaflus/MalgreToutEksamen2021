@@ -14,7 +14,6 @@ namespace MalgreTout.Pages.DistributionPoints
         [BindProperty(SupportsGet = true)]
         public string FilterCriteria { get; set; }
         public IEnumerable<DistributionPoint> DistributionPoints { get; set; }
-
         IDistributionService distributionService { get; set; }
         public GetDistributionPointsModel(IDistributionService service)
         {

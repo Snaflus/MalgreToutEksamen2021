@@ -23,7 +23,10 @@ namespace MalgreTout.Services.EFServices
 
         public IEnumerable<DistributionPoint> GetDistributionPoints()
         {
-            return context.DistributionPoints;
+            return context.DistributionPoints
+                .Include(s => s.ZipcodeNavigation)
+                .Include(c => c.OpeningHour)
+                .Include(v => v.Contactpeople);
         }
 
         public void AddDistributionPoint(DistributionPoint distributionPoint)
