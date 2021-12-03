@@ -9,25 +9,26 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MalgreTout.Models
 {
-    [Table("Kontaktpersoner")]
-    public partial class Kontaktpersoner
+    [Table("Contactperson")]
+    public partial class Contactperson
     {
-        [Column("Lokation_ID")]
-        public int LokationId { get; set; }
+        [Column("Location_ID")]
+        public int LocationId { get; set; }
         [Key]
-        [Column("Kontakt_ID")]
-        public int KontaktId { get; set; }
+        [Column("Contact_ID")]
+        public int ContactId { get; set; }
         [Required]
+        [Column("Contactperson")]
         [StringLength(40)]
-        public string Kontaktperson { get; set; }
+        public string Contactperson1 { get; set; }
         [Required]
         [StringLength(50)]
         public string Email { get; set; }
         [StringLength(15)]
-        public string Telefonnummer { get; set; }
+        public string Phone { get; set; }
 
-        [ForeignKey(nameof(LokationId))]
-        [InverseProperty(nameof(Lokationer.Kontaktpersoners))]
-        public virtual Lokationer Lokation { get; set; }
+        [ForeignKey(nameof(LocationId))]
+        [InverseProperty(nameof(DistributionPoint.Contactpeople))]
+        public virtual DistributionPoint Location { get; set; }
     }
 }

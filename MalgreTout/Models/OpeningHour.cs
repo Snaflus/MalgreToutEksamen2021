@@ -9,18 +9,19 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MalgreTout.Models
 {
-    [Table("Åbningerstider")]
-    public partial class Åbningerstider
+    [Table("Opening_hour")]
+    public partial class OpeningHour
     {
         [Key]
-        [Column("Lokation_ID")]
-        public int LokationId { get; set; }
+        [Column("Location_ID")]
+        public int LocationId { get; set; }
         [Required]
+        [Column("Opening_hour")]
         [StringLength(10)]
-        public string Åbningstider { get; set; }
+        public string OpeningHour1 { get; set; }
 
-        [ForeignKey(nameof(LokationId))]
-        [InverseProperty(nameof(Lokationer.Åbningerstider))]
-        public virtual Lokationer Lokation { get; set; }
+        [ForeignKey(nameof(LocationId))]
+        [InverseProperty(nameof(DistributionPoint.OpeningHour))]
+        public virtual DistributionPoint Location { get; set; }
     }
 }

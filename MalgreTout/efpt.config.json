@@ -14,19 +14,19 @@
    "SelectedToBeGenerated": 0,
    "Tables": [
       {
-         "Name": "[dbo].[Åbningerstider]",
+         "Name": "[dbo].[Contactperson]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[Antal_magasiner]",
+         "Name": "[dbo].[Distribution_point]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[Kontaktpersoner]",
+         "Name": "[dbo].[No_of_magazine]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[Lokationer]",
+         "Name": "[dbo].[Opening_hour]",
          "ObjectType": 0
       }
    ],

@@ -18,10 +18,10 @@ namespace MalgreTout.Models
         {
         }
 
-        public virtual DbSet<AntalMagasiner> AntalMagasiners { get; set; }
-        public virtual DbSet<Kontaktpersoner> Kontaktpersoners { get; set; }
-        public virtual DbSet<Lokationer> Lokationers { get; set; }
-        public virtual DbSet<Åbningerstider> Åbningerstiders { get; set; }
+        public virtual DbSet<Contactperson> Contactpeople { get; set; }
+        public virtual DbSet<DistributionPoint> DistributionPoints { get; set; }
+        public virtual DbSet<NoOfMagazine> NoOfMagazines { get; set; }
+        public virtual DbSet<OpeningHour> OpeningHours { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -36,61 +36,59 @@ namespace MalgreTout.Models
         {
             modelBuilder.HasAnnotation("Relational:Collation", "SQL_Latin1_General_CP1_CI_AS");
 
-            modelBuilder.Entity<AntalMagasiner>(entity =>
+            modelBuilder.Entity<Contactperson>(entity =>
             {
-                entity.HasKey(e => e.LokationId)
-                    .HasName("PK__Antal_ma__2E6900926824188C");
+                entity.HasKey(e => e.ContactId)
+                    .HasName("PK__Contactp__82ACC1CD6E12835E");
 
-                entity.Property(e => e.LokationId).ValueGeneratedNever();
-
-                entity.HasOne(d => d.Lokation)
-                    .WithOne(p => p.AntalMagasiner)
-                    .HasForeignKey<AntalMagasiner>(d => d.LokationId)
-                    .HasConstraintName("FK__Antal_mag__Lokat__55F4C372");
-            });
-
-            modelBuilder.Entity<Kontaktpersoner>(entity =>
-            {
-                entity.HasKey(e => e.KontaktId)
-                    .HasName("PK__Kontaktp__68E9980514075239");
+                entity.Property(e => e.Contactperson1).IsUnicode(false);
 
                 entity.Property(e => e.Email).IsUnicode(false);
 
-                entity.Property(e => e.Kontaktperson).IsUnicode(false);
+                entity.Property(e => e.Phone).IsUnicode(false);
 
-                entity.Property(e => e.Telefonnummer).IsUnicode(false);
-
-                entity.HasOne(d => d.Lokation)
-                    .WithMany(p => p.Kontaktpersoners)
-                    .HasForeignKey(d => d.LokationId)
-                    .HasConstraintName("FK__Kontaktpe__Lokat__58D1301D");
+                entity.HasOne(d => d.Location)
+                    .WithMany(p => p.Contactpeople)
+                    .HasForeignKey(d => d.LocationId)
+                    .HasConstraintName("FK__Contactpe__Locat__76619304");
             });
 
-            modelBuilder.Entity<Lokationer>(entity =>
+            modelBuilder.Entity<DistributionPoint>(entity =>
             {
-                entity.HasKey(e => e.LokationId)
-                    .HasName("PK__Lokation__2E6900928DB1BAF4");
+                entity.HasKey(e => e.LocationId)
+                    .HasName("PK__Distribu__D2BA00C20464E1FF");
 
-                entity.Property(e => e.Adresse).IsUnicode(false);
+                entity.Property(e => e.Address).IsUnicode(false);
 
-                entity.Property(e => e.Firmanavn).IsUnicode(false);
-
-                entity.Property(e => e.Telefonnummer).IsUnicode(false);
+                entity.Property(e => e.Company).IsUnicode(false);
             });
 
-            modelBuilder.Entity<Åbningerstider>(entity =>
+            modelBuilder.Entity<NoOfMagazine>(entity =>
             {
-                entity.HasKey(e => e.LokationId)
-                    .HasName("PK__Åbninger__2E6900921D6CE693");
+                entity.HasKey(e => e.LocationId)
+                    .HasName("PK__No_of_ma__D2BA00C2C8EFD312");
 
-                entity.Property(e => e.LokationId).ValueGeneratedNever();
+                entity.Property(e => e.LocationId).ValueGeneratedNever();
 
-                entity.Property(e => e.Åbningstider).IsUnicode(false);
+                entity.HasOne(d => d.Location)
+                    .WithOne(p => p.NoOfMagazine)
+                    .HasForeignKey<NoOfMagazine>(d => d.LocationId)
+                    .HasConstraintName("FK__No_of_mag__Locat__73852659");
+            });
 
-                entity.HasOne(d => d.Lokation)
-                    .WithOne(p => p.Åbningerstider)
-                    .HasForeignKey<Åbningerstider>(d => d.LokationId)
-                    .HasConstraintName("FK__Åbningers__Lokat__531856C7");
+            modelBuilder.Entity<OpeningHour>(entity =>
+            {
+                entity.HasKey(e => e.LocationId)
+                    .HasName("PK__Opening___D2BA00C260D8F073");
+
+                entity.Property(e => e.LocationId).ValueGeneratedNever();
+
+                entity.Property(e => e.OpeningHour1).IsUnicode(false);
+
+                entity.HasOne(d => d.Location)
+                    .WithOne(p => p.OpeningHour)
+                    .HasForeignKey<OpeningHour>(d => d.LocationId)
+                    .HasConstraintName("FK__Opening_h__Locat__70A8B9AE");
             });
 
             OnModelCreatingPartial(modelBuilder);

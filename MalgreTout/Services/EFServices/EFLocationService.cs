@@ -16,31 +16,31 @@ namespace MalgreTout.Services.EFServices
             context = service;
         }
 
-        public IEnumerable<Lokationer> GetLocations(string filter)
+        public IEnumerable<DistributionPoint> GetLocations(string filter)
         {
-            return this.context.Set<Lokationer>().Where(s => s.Firmanavn.StartsWith(filter)).AsNoTracking().ToList();
+            return this.context.Set<DistributionPoint>().Where(s => s.Company.StartsWith(filter)).AsNoTracking().ToList();
         }
 
-        public IEnumerable<Lokationer> GetLocations()
+        public IEnumerable<DistributionPoint> GetLocations()
         {
-            return context.Lokationers;
+            return context.DistributionPoints;
         }
 
-        public void AddLocation(Lokationer location)
+        public void AddLocation(DistributionPoint location)
         {
-            context.Lokationers.Add(location);
+            context.DistributionPoints.Add(location);
             context.SaveChangesAsync();
         }
 
-        public void DeleteLocation(Lokationer location)
+        public void DeleteLocation(DistributionPoint location)
         {
-            context.Lokationers.Remove(location);
+            context.DistributionPoints.Remove(location);
             context.SaveChangesAsync();
         }
 
-        public Lokationer GetLocationById(int id)
+        public DistributionPoint GetLocationById(int id)
         {
-            return context.Lokationers.Find(id);
+            return context.DistributionPoints.Find(id);
         }
 
     }

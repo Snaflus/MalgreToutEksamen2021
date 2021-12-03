@@ -10,10 +10,10 @@ namespace MalgreTout.Services.Interfaces
 {
     public interface ILocationService
     {
-        IEnumerable<Lokationer> GetLocations(string filter);
-        IEnumerable<Lokationer> GetLocations();
-        void AddLocation(Lokationer location);
-        void DeleteLocation(Lokationer location);
-        Lokationer GetLocationById(int id);
+        IEnumerable<DistributionPoint> GetLocations(string filter);
+        IEnumerable<DistributionPoint> GetLocations();
+        void AddLocation(DistributionPoint location);
+        void DeleteLocation(DistributionPoint location);
+        DistributionPoint GetLocationById(int id);
     }
 }
