@@ -41,6 +41,10 @@
 			<td>  @item.OpeningHour.OpeningHour1</td>
 			<td>  @item.ContactPerson.Phone</td>
 			<td>  @item.ContactPerson.Email</td>
+			@*<td>
+				<input type="button" onclick="alert(@item.ContactPerson.Phone)" value="Kontakt" class="btn btn-primary" />
+				https://www.w3schools.com/howto/howto_css_modals.asp
+			</td>*@
 			<td>
 				<p>
 					<a asp-page="/DistributionPoints/Update" asp-route-id="@item.LocationId">Opdater</a>
