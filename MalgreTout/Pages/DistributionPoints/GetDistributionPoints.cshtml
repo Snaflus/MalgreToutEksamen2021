@@ -21,6 +21,9 @@
 			<th>Adresse</th>
 			<th>Postnummer </th>
 			<th>Bynavn</th>
+			<th>Åbningstid</th>
+			<th>Telefon</th>
+			<th>Email</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -36,7 +39,8 @@
 			<td>  @item.Zipcode </td>
 			<td>  @item.ZipcodeNavigation.City</td>
 			<td>  @item.OpeningHour.OpeningHour1</td>
-			@*<td>  @item.Contactpeople</td>*@
+			<td>  @item.ContactPerson.Phone</td>
+			<td>  @item.ContactPerson.Email</td>
 			<td>
 				<p>
 					<a asp-page="/DistributionPoints/Update" asp-route-id="@item.LocationId">Opdater</a>

@@ -28,7 +28,9 @@ namespace MalgreTout.Models
         public string Phone { get; set; }
 
         [ForeignKey(nameof(LocationId))]
-        [InverseProperty(nameof(DistributionPoint.Contactpeople))]
+        //[InverseProperty(nameof(DistributionPoint.Contactpeople))]
+
+        [InverseProperty(nameof(DistributionPoint.ContactPerson))]
         public virtual DistributionPoint Location { get; set; }
     }
 }

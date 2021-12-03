@@ -28,7 +28,6 @@ namespace MalgreTout.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
                 optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=MalgreTout;Integrated Security=True");
             }
         }
@@ -48,10 +47,10 @@ namespace MalgreTout.Models
 
                 entity.Property(e => e.Phone).IsUnicode(false);
 
-                entity.HasOne(d => d.Location)
-                    .WithMany(p => p.Contactpeople)
-                    .HasForeignKey(d => d.LocationId)
-                    .HasConstraintName("FK__Contactpe__Locat__76619304");
+                //entity.HasOne(d => d.Location)
+                //    .WithMany(p => p.Contactpeople)
+                //    .HasForeignKey(d => d.LocationId)
+                //    .HasConstraintName("FK__Contactpe__Locat__76619304");
             });
 
             modelBuilder.Entity<DistributionPoint>(entity =>

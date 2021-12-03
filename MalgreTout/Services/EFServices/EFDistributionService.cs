@@ -26,7 +26,7 @@ namespace MalgreTout.Services.EFServices
             return context.DistributionPoints
                 .Include(s => s.ZipcodeNavigation)
                 .Include(c => c.OpeningHour)
-                .Include(v => v.Contactpeople);
+                .Include(v => v.ContactPerson);
         }
 
         public void AddDistributionPoint(DistributionPoint distributionPoint)
