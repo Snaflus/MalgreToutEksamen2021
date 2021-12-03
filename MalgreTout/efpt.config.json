@@ -28,6 +28,10 @@
       {
          "Name": "[dbo].[Opening_hour]",
          "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Zipcode]",
+         "ObjectType": 0
       }
    ],
    "UiHint": "(localdb)\\MSSQLLocalDB.MalgreTout",

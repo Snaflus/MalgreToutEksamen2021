@@ -22,6 +22,7 @@ namespace MalgreTout.Models
         public virtual DbSet<DistributionPoint> DistributionPoints { get; set; }
         public virtual DbSet<NoOfMagazine> NoOfMagazines { get; set; }
         public virtual DbSet<OpeningHour> OpeningHours { get; set; }
+        public virtual DbSet<Zipcode> Zipcodes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -61,6 +62,12 @@ namespace MalgreTout.Models
                 entity.Property(e => e.Address).IsUnicode(false);
 
                 entity.Property(e => e.Company).IsUnicode(false);
+
+                entity.HasOne(d => d.ZipcodeNavigation)
+                    .WithMany(p => p.DistributionPoints)
+                    .HasForeignKey(d => d.Zipcode)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK__Distribut__Zipco__6DCC4D03");
             });
 
             modelBuilder.Entity<NoOfMagazine>(entity =>
@@ -89,6 +96,16 @@ namespace MalgreTout.Models
                     .WithOne(p => p.OpeningHour)
                     .HasForeignKey<OpeningHour>(d => d.LocationId)
                     .HasConstraintName("FK__Opening_h__Locat__70A8B9AE");
+            });
+
+            modelBuilder.Entity<Zipcode>(entity =>
+            {
+                entity.HasKey(e => e.Zipcode1)
+                    .HasName("PK__Zipcode__E546D6BFE139B825");
+
+                entity.Property(e => e.Zipcode1).ValueGeneratedNever();
+
+                entity.Property(e => e.City).IsUnicode(false);
             });
 
             OnModelCreatingPartial(modelBuilder);

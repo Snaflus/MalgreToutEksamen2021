@@ -1,0 +1,49 @@
+﻿@page
+@model MalgreTout.Pages.DistributionPoints.GetDistributionPointsModel
+@{ ViewData["Title"] = "Lokationer"; }
+<h1>Lokationer</h1>
+<p>
+	<a asp-page="/DistributionPoints/Create">Opret lokation</a>
+</p>
+<form>
+	<p>
+		Search: <input type="text" asp-for="FilterCriteria" />
+		<input type="submit" value="Filter" />
+		<a asp-page="/DistributionPoints/GetDistributionPoints">Tilbage til liste </a>
+	</p>
+</form>
+<h4 style="color:red"> Liste af lokationer</h4>
+<table class="table">
+	<thead>
+		<tr>
+			<th>Lokation ID</th>
+			<th>Firmanavn</th>
+			<th>Adresse</th>
+			<th>Postnummer </th>
+			<th>Bynavn</th>
+		</tr>
+	</thead>
+	<tbody>
+
+		@if (Model.DistributionPoints != null)
+		{
+			@foreach (var item in Model.DistributionPoints)
+			{
+		<tr>
+			<td>  @item.LocationId </td>
+			<td>  @item.Company </td>
+			<td>  @item.Address </td>
+			<td>  @item.Zipcode </td>
+			<td>
+				<p>
+					<a asp-page="/DistributionPoints/Update" asp-route-id="@item.LocationId">Opdater</a>
+				</p>
+				<p>
+					<a asp-page="/DistributionPoints/Delete" asp-route-id="@item.LocationId">Slet</a>
+				</p>
+			</td>
+		</tr>
+			}
+		}
+</table>
+

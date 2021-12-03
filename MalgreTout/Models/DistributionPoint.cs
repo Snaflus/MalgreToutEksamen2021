@@ -28,6 +28,9 @@ namespace MalgreTout.Models
         public string Address { get; set; }
         public int Zipcode { get; set; }
 
+        [ForeignKey(nameof(Zipcode))]
+        [InverseProperty("DistributionPoints")]
+        public virtual Zipcode ZipcodeNavigation { get; set; }
         [InverseProperty("Location")]
         public virtual NoOfMagazine NoOfMagazine { get; set; }
         [InverseProperty("Location")]

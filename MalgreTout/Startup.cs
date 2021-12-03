@@ -8,6 +8,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MalgreTout.Models;
+using MalgreTout.Services.EFServices;
+using MalgreTout.Services.Interfaces;
 
 namespace MalgreTout
 {
@@ -24,6 +27,10 @@ namespace MalgreTout
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddDbContext<MalgretoutContext>();
+
+            services.AddTransient<IDistributionService, EFDistributionService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
