@@ -13,15 +13,19 @@ namespace MalgreTout.Models
     public partial class OpeningHour
     {
         [Key]
+        [Column("Opening_ID")]
+        public int OpeningId { get; set; }
         [Column("Location_ID")]
         public int LocationId { get; set; }
-        [Required]
-        [Column("Opening_hour")]
-        [StringLength(10)]
-        public string OpeningHour1 { get; set; }
+        [Column("Week_day")]
+        [StringLength(30)]
+        public string WeekDay { get; set; }
+        [Column("Open_hours")]
+        [StringLength(15)]
+        public string OpenHours { get; set; }
 
         [ForeignKey(nameof(LocationId))]
-        [InverseProperty(nameof(DistributionPoint.OpeningHour))]
+        [InverseProperty(nameof(DistributionPoint.OpeningHours))]
         public virtual DistributionPoint Location { get; set; }
     }
 }

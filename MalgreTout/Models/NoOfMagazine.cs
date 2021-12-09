@@ -13,17 +13,19 @@ namespace MalgreTout.Models
     public partial class NoOfMagazine
     {
         [Key]
+        [Column("Magasine_ID")]
+        public int MagasineId { get; set; }
         [Column("Location_ID")]
         public int LocationId { get; set; }
         [Column("Magazine_issue")]
-        public int MagazineIssue { get; set; }
+        public int? MagazineIssue { get; set; }
         [Column("Supplied_magazine")]
         public int? SuppliedMagazine { get; set; }
         [Column("Delivered_magazine")]
         public int? DeliveredMagazine { get; set; }
 
         [ForeignKey(nameof(LocationId))]
-        [InverseProperty(nameof(DistributionPoint.NoOfMagazine))]
+        [InverseProperty(nameof(DistributionPoint.NoOfMagazines))]
         public virtual DistributionPoint Location { get; set; }
     }
 }

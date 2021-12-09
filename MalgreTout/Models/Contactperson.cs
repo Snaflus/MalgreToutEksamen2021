@@ -21,16 +21,13 @@ namespace MalgreTout.Models
         [Column("Contactperson")]
         [StringLength(40)]
         public string Contactperson1 { get; set; }
-        [Required]
         [StringLength(50)]
         public string Email { get; set; }
         [StringLength(15)]
         public string Phone { get; set; }
 
         [ForeignKey(nameof(LocationId))]
-        //[InverseProperty(nameof(DistributionPoint.Contactpeople))]
-
-        [InverseProperty(nameof(DistributionPoint.ContactPerson))]
+        [InverseProperty(nameof(DistributionPoint.Contactpeople))]
         public virtual DistributionPoint Location { get; set; }
     }
 }
