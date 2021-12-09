@@ -10,22 +10,25 @@ create table Distribution_point(
 	Address varchar(30) not null,
 	Zipcode int not null,
 	primary key (Location_ID),
-	foreign key (Zipcode) references	Zipcode(Zipcode),
+	foreign key (Zipcode) references Zipcode(Zipcode),
 );
 
 create table Opening_hour(
+	Opening_ID int identity(1,1) not null,
 	Location_ID int not null,
-	Opening_hour varchar(10) not null,
-	primary key (Location_ID),
+	Week_day varchar(30),
+	Open_hours varchar(15),
+	primary key (Opening_ID),
 	foreign key (Location_ID) references Distribution_point(Location_ID) on delete cascade,
 );
 
 create table No_of_magazine(
+	Magasine_ID int identity(1,1) not null,
 	Location_ID int not null,
-	Magazine_issue int not null,
+	Magazine_issue int,
 	Supplied_magazine int,
 	Delivered_magazine int,
-	primary key (Location_ID),
+	primary key (Magasine_ID),
 	foreign key (Location_ID) references Distribution_point(Location_ID) on delete cascade,
 );
 
@@ -33,7 +36,7 @@ create table Contactperson(
 	Location_ID int not null,
 	Contact_ID int identity(1,1) not null,
 	Contactperson varchar (40) not null,
-	Email varchar (50) not null,
+	Email varchar (50),
 	Phone varchar(15),
 	primary key (Contact_ID),
 	foreign key (Location_ID) references Distribution_point(Location_ID) on delete cascade,
@@ -71,8 +74,12 @@ Insert into No_of_magazine values (3,49,150,170);
 Insert into No_of_magazine values (4,49,100,110);
 Insert into No_of_magazine values (5,49,100,90);
 
-Insert into Opening_hour values (1,'10-18');
-Insert into Opening_hour values (2,'10-18');
-Insert into Opening_hour values (3,'10-18');
-Insert into Opening_hour values (4,'10-18');
-Insert into Opening_hour values (5,'10-18');
+Insert into Opening_hour values (1,'Hverdage','10-18');
+Insert into Opening_hour values (1,'Weekend','10-15');
+Insert into Opening_hour values (2,'Alle dage','10-18');
+Insert into Opening_hour values (3,'Mandag-torsdag','10-18');
+Insert into Opening_hour values (3,'Fredag-søndag','10-14');
+Insert into Opening_hour values (4,'Mandag-lørdag','10-18');
+Insert into Opening_hour values (4,'Søndag','Lukket');
+Insert into Opening_hour values (5,'Mandag-torsdag','10-18');
+Insert into Opening_hour values (5,'Fredag-søndag','10-15');
