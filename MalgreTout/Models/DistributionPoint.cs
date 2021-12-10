@@ -12,12 +12,12 @@ namespace MalgreTout.Models
     [Table("Distribution_point")]
     public partial class DistributionPoint
     {
-        //public DistributionPoint()
-        //{
-        //    Contactpeople = new HashSet<Contactperson>();
-        //    NoOfMagazines = new HashSet<NoOfMagazine>();
-        //    OpeningHours = new HashSet<OpeningHour>();
-        //}
+        public DistributionPoint()
+        {
+            Contactpeople = new HashSet<Contactperson>();
+            NoOfMagazines = new HashSet<NoOfMagazine>();
+            OpeningHours = new HashSet<OpeningHour>();
+        }
 
         [Key]
         [Column("Location_ID")]
@@ -35,15 +35,12 @@ namespace MalgreTout.Models
         public virtual Zipcode ZipcodeNavigation { get; set; }
 
         [InverseProperty(nameof(Contactperson.Location))]
-        public virtual Contactperson Contactpeople { get; set; }
-        //public virtual ICollection<Contactperson> Contactpeople { get; set; }
+        public virtual ICollection<Contactperson> Contactpeople { get; set; }
 
         [InverseProperty(nameof(NoOfMagazine.Location))]
-        public virtual NoOfMagazine NoOfMagazines { get; set; }
-        //public virtual ICollection<NoOfMagazine> NoOfMagazines { get; set; }
+        public virtual ICollection<NoOfMagazine> NoOfMagazines { get; set; }
 
         [InverseProperty(nameof(OpeningHour.Location))]
-        public virtual OpeningHour OpeningHours { get; set; }
-        //public virtual ICollection<OpeningHour> OpeningHours { get; set; }
+        public virtual ICollection<OpeningHour> OpeningHours { get; set; }
     }
 }

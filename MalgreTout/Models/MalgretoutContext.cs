@@ -47,10 +47,10 @@ namespace MalgreTout.Models
 
                 entity.Property(e => e.Phone).IsUnicode(false);
 
-                //entity.HasOne(d => d.Location)
-                //    .WithMany(p => p.Contactpeople)
-                //    .HasForeignKey(d => d.LocationId)
-                //    .HasConstraintName("FK__Contactpe__Locat__336AA144");
+                entity.HasOne(d => d.Location)
+                    .WithMany(p => p.Contactpeople)
+                    .HasForeignKey(d => d.LocationId)
+                    .HasConstraintName("FK__Contactpe__Locat__336AA144");
             });
 
             modelBuilder.Entity<DistributionPoint>(entity =>
@@ -74,10 +74,10 @@ namespace MalgreTout.Models
                 entity.HasKey(e => e.MagasineId)
                     .HasName("PK__No_of_ma__3AD34079A6293673");
 
-                //entity.HasOne(d => d.Location)
-                //    .WithMany(p => p.NoOfMagazines)
-                //    .HasForeignKey(d => d.LocationId)
-                //    .HasConstraintName("FK__No_of_mag__Locat__308E3499");
+                entity.HasOne(d => d.Location)
+                    .WithMany(p => p.NoOfMagazines)
+                    .HasForeignKey(d => d.LocationId)
+                    .HasConstraintName("FK__No_of_mag__Locat__308E3499");
             });
 
             modelBuilder.Entity<OpeningHour>(entity =>
@@ -89,10 +89,10 @@ namespace MalgreTout.Models
 
                 entity.Property(e => e.WeekDay).IsUnicode(false);
 
-                //entity.HasOne(d => d.Location)
-                //    .WithMany(p => p.OpeningHours)
-                //    .HasForeignKey(d => d.LocationId)
-                //    .HasConstraintName("FK__Opening_h__Locat__2DB1C7EE");
+                entity.HasOne(d => d.Location)
+                    .WithMany(p => p.OpeningHours)
+                    .HasForeignKey(d => d.LocationId)
+                    .HasConstraintName("FK__Opening_h__Locat__2DB1C7EE");
             });
 
             modelBuilder.Entity<Zipcode>(entity =>

@@ -22,8 +22,9 @@
 			<th>Postnummer </th>
 			<th>Bynavn</th>
 			<th>Åbningstid</th>
-			<th>Telefon</th>
-			<th>Email</th>
+			<th></th>
+			@*<th>Telefon</th>
+				<th>Email</th>*@
 		</tr>
 	</thead>
 	<tbody>
@@ -32,28 +33,57 @@
 		{
 			@foreach (var item in Model.DistributionPoints)
 			{
-		<tr>
-			<td>  @item.LocationId </td>
-			<td>  @item.Company </td>
-			<td>  @item.Address </td>
-			<td>  @item.Zipcode </td>
-			<td>  @item.ZipcodeNavigation.City</td>
-			<td>  @item.OpeningHours.OpenHours</td>
-			<td>  @item.Contactpeople.Phone</td>
-			<td>  @item.Contactpeople.Email</td>
-			@*<td>
-				<input type="button" onclick="alert(@item.ContactPerson.Phone)" value="Kontakt" class="btn btn-primary" />
-				ht tps://www.w3schools.com/howto/howto_css_modals.asp
-			</td>*@
-			<td>
-				<p>
-					<a asp-page="/DistributionPoints/Update" asp-route-id="@item.LocationId">Opdater</a>
-				</p>
-				<p>
-					<a asp-page="/DistributionPoints/Delete" asp-route-id="@item.LocationId">Slet</a>
-				</p>
-			</td>
-		</tr>
+				<tr>
+					<td>  @item.LocationId </td>
+					<td>  @item.Company </td>
+					<td>  @item.Address </td>
+					<td>  @item.Zipcode </td>
+					<td>  @item.ZipcodeNavigation.City</td>
+
+
+					@if (item.OpeningHours.Count == 0)
+					{
+						<td></td>
+						<td></td>
+					}
+					else
+					{
+						<td colspan="2">
+							@foreach (var i in item.OpeningHours)
+							{
+								@i.WeekDay @i.OpenHours <br />
+							}
+						</td>
+					}
+
+
+					@*@if (item.Contactpeople.Count == 0)
+						{
+							<td></td>
+							<td></td>
+						}
+						else
+						{
+							<td>  @item.Contactpeople.First().Phone</td>
+							<td>  @item.Contactpeople.First().Email</td>
+						}*@
+
+
+				<td>
+					<input type="button" onclick="" value="Kontakt" class="btn btn-primary" />
+					@*ht tps://www.w3schools.com/howto/howto_css_modals.asp onclick should be alert(@item.Contactpeople.First().Phone)*@
+				</td>
+
+
+					<td>
+						<p>
+							<a asp-page="/DistributionPoints/Update" asp-route-id="@item.LocationId">Opdater</a>
+						</p>
+						<p>
+							<a asp-page="/DistributionPoints/Delete" asp-route-id="@item.LocationId">Slet</a>
+						</p>
+					</td>
+				</tr>
 			}
 		}
 </table>
