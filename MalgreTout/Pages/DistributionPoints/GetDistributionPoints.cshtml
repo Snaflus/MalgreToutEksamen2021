@@ -38,7 +38,16 @@
 					<td>  @item.Company </td>
 					<td>  @item.Address </td>
 					<td>  @item.Zipcode </td>
-					<td>  @item.ZipcodeNavigation.City</td>
+
+					@if (item.ZipcodeNavigation.City == null)
+					{
+						<td></td>
+					}
+					else
+					{
+						<td>  @item.ZipcodeNavigation.City</td>
+					}
+
 
 
 					@if (item.OpeningHours.Count == 0)
@@ -69,10 +78,10 @@
 						}*@
 
 
-				<td>
-					<input type="button" onclick="" value="Kontakt" class="btn btn-primary" />
-					@*ht tps://www.w3schools.com/howto/howto_css_modals.asp onclick should be alert(@item.Contactpeople.First().Phone)*@
-				</td>
+					<td>
+						<input type="button" onclick="" value="Kontakt" class="btn btn-primary" />
+						@*ht tps://www.w3schools.com/howto/howto_css_modals.asp onclick should be alert(@item.Contactpeople.First().Phone)*@
+					</td>
 
 
 					<td>
