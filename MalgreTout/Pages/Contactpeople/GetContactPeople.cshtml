@@ -1,4 +1,63 @@
 ﻿@page
 @model MalgreTout.Pages.Contactpeople.GetContactPeopleModel
-@{
-}
+@{ ViewData["Title"] = "Kontakt person"; }
+<h1>Kontakt person</h1>
+<p>
+	<a asp-page="/DistributionPoints/Create">Opret kontaktperson</a>
+</p>
+<table class="table">
+	<thead>
+		<tr>
+			<th>Lokation ID</th>
+			<th>Firmanavn</th>
+			<th>Email</th>
+			<th>Telefon</th>
+			<th>Åbningstider</th>
+		</tr>
+	</thead>
+	<tbody>
+		@if (Model.Contactpeople != null)
+		{
+			@foreach (var item in Model.Contactpeople)
+			{
+				<tr>
+					<td> @item.LocationId </td>
+					<td> @item.Location.Company</td>
+
+					@if (item.Email == null)
+					{
+						<td></td>
+					}
+					else
+					{
+						<td>  @item.Email</td>
+					}
+
+					@if (item.Phone == null)
+					{
+						<td></td>
+					}
+					else
+					{
+						<td>  @item.Phone</td>
+					}
+
+					@if (item.Location.OpeningHours.Count == 0)
+					{
+						<td></td>
+						<td></td>
+					}
+					else
+					{
+						<td colspan="2">
+							@foreach (var i in item.Location.OpeningHours)
+							{
+								@i.WeekDay @i.OpenHours <br />
+							}
+						</td>
+					}
+				</tr>
+			}
+		}
+	</tbody>
+</table>

@@ -21,14 +21,12 @@
 			<th>Adresse</th>
 			<th>Postnummer </th>
 			<th>Bynavn</th>
-			<th>Åbningstid</th>
 			<th></th>
 			@*<th>Telefon</th>
 				<th>Email</th>*@
 		</tr>
 	</thead>
 	<tbody>
-
 		@if (Model.DistributionPoints != null)
 		{
 			@foreach (var item in Model.DistributionPoints)
@@ -50,37 +48,10 @@
 
 
 
-					@if (item.OpeningHours.Count == 0)
-					{
-						<td></td>
-						<td></td>
-					}
-					else
-					{
-						<td colspan="2">
-							@foreach (var i in item.OpeningHours)
-							{
-								@i.WeekDay @i.OpenHours <br />
-							}
-						</td>
-					}
-
-
-					@*@if (item.Contactpeople.Count == 0)
-						{
-							<td></td>
-							<td></td>
-						}
-						else
-						{
-							<td>  @item.Contactpeople.First().Phone</td>
-							<td>  @item.Contactpeople.First().Email</td>
-						}*@
-
-
 					<td>
-						<input type="button" onclick="" value="Kontakt" class="btn btn-primary" />
-						@*ht tps://www.w3schools.com/howto/howto_css_modals.asp onclick should be alert(@item.Contactpeople.First().Phone)*@
+						<a asp-page="../Contactpeople/GetContactPeople" asp-route-id="@item.LocationId">
+							<input type="button" onclick="" value="Kontakt" class="btn btn-primary" />
+						</a>
 					</td>
 
 
@@ -93,7 +64,9 @@
 						</p>
 					</td>
 				</tr>
+
 			}
 		}
+	</tbody>
 </table>
 

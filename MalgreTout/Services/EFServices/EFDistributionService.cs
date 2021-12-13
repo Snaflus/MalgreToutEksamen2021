@@ -25,8 +25,8 @@ namespace MalgreTout.Services.EFServices
         {
             return context.DistributionPoints
                 .Include(s => s.ZipcodeNavigation)
-                .Include(c => c.OpeningHours);
-                //.Include(v => v.Contactpeople);
+                .Include(c => c.OpeningHours)
+                .Include(v => v.Contactpeople);
         }
 
         public void AddDistributionPoint(DistributionPoint distributionPoint)
@@ -53,7 +53,7 @@ namespace MalgreTout.Services.EFServices
             DistributionPoint distributionPoint = context.DistributionPoints
                 .Include(s => s.ZipcodeNavigation)
                 .Include(c => c.OpeningHours)
-                //.Include(v => v.Contactpeople)
+                .Include(v => v.Contactpeople)
                 .AsNoTracking()
                 .FirstOrDefault(m => m.LocationId == id);
             return distributionPoint;

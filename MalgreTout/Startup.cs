@@ -31,6 +31,8 @@ namespace MalgreTout
             services.AddDbContext<MalgretoutContext>();
 
             services.AddTransient<IDistributionService, EFDistributionService>();
+
+            services.AddTransient<IContactPeopleService, EFContactpeopleService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
