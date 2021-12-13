@@ -41,11 +41,9 @@ namespace MalgreTout.Services.EFServices
             context.SaveChangesAsync();
         }
 
-        public void UpdateDistributionPoint(DistributionPoint oldDistributionPoint, DistributionPoint newDistributionPoint)
+        public void UpdateDistributionPoint(DistributionPoint DistributionPoint)
         {
-            //DistributionPoint newDistributionPoint = new DistributionPoint();
-            newDistributionPoint.LocationId = oldDistributionPoint.LocationId;
-            context.DistributionPoints.Add(newDistributionPoint);
+            context.DistributionPoints.Update(DistributionPoint);
             context.SaveChangesAsync();
         }
 

@@ -14,7 +14,7 @@ namespace MalgreTout.Services.Interfaces
         IEnumerable<DistributionPoint> GetDistributionPoints();
         void AddDistributionPoint(DistributionPoint distributionPoint);
         void DeleteDistributionPoint(DistributionPoint distributionPoint);
-        void UpdateDistributionPoint(DistributionPoint oldDistributionPoint, DistributionPoint newDistributionPoint);
+        void UpdateDistributionPoint(DistributionPoint DistributionPoint);
         DistributionPoint GetDistributionPointById(int id);
     }
 }
