@@ -1,38 +1,26 @@
 ﻿@page
 @model MalgreTout.Pages.Contactpeople.GetContactPeopleModel
-@{ ViewData["Title"] = "Kontakt person"; }
-<h1>Kontakt person</h1>
-<p>
-	<a asp-page="/DistributionPoints/Create">Opret kontaktperson</a>
-</p>
+@{ ViewData["Title"] = "Kontakt"; }
+<h1> @Html.DisplayFor(model => model.Contactpeople.First().Location.Company)</h1>
 <table class="table">
-	<thead>
-		<tr>
-			<th>Lokation ID</th>
-			<th>Firmanavn</th>
-			<th>Email</th>
-			<th>Telefon</th>
-			<th>Åbningstider</th>
-		</tr>
-	</thead>
 	<tbody>
 		@if (Model.Contactpeople != null)
 		{
 			@foreach (var item in Model.Contactpeople)
 			{
 				<tr>
-					<td> @item.LocationId </td>
-					<td> @item.Location.Company</td>
-
+					<th>Email</th>
 					@if (item.Email == null)
 					{
 						<td></td>
 					}
 					else
 					{
-						<td>  @item.Email</td>
+						<td> @item.Email</td>
 					}
-
+				</tr>
+				<tr>
+					<th>Telefon</th>
 					@if (item.Phone == null)
 					{
 						<td></td>
@@ -41,7 +29,9 @@
 					{
 						<td>  @item.Phone</td>
 					}
-
+				</tr>
+				<tr>
+					<th>Åbningstider</th>
 					@if (item.Location.OpeningHours.Count == 0)
 					{
 						<td></td>
@@ -49,12 +39,12 @@
 					}
 					else
 					{
-						<td colspan="2">
-							@foreach (var i in item.Location.OpeningHours)
-							{
-								@i.WeekDay @i.OpenHours <br />
-							}
-						</td>
+				<td>
+					@foreach (var i in item.Location.OpeningHours)
+					{
+						@i.WeekDay <br /> @i.OpenHours <br />
+					}
+				</td>
 					}
 				</tr>
 			}
