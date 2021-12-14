@@ -18,9 +18,11 @@ namespace MalgreTout.Pages.DistributionPoints
             DistributionPoint.LocationId = id;
         }
         IDistributionService distributionService;
-        public CreateModel(IDistributionService service)
+        IContactPeopleService contactPeopleService;
+        public CreateModel(IDistributionService service, IContactPeopleService service2)
         {
             this.distributionService = service;
+            this.contactPeopleService = service2;
         }
         public IActionResult OnPost()
         {

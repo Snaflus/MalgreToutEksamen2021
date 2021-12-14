@@ -37,11 +37,11 @@
 					}
 				</select>
 			</div>*@
-			@*<div class="form-group">
-			<label asp-for="@Model.DistributionPoint.OpeningHour.OpeningHour1" class="control-label"></label>
-			<input asp-for="@Model.DistributionPoint.OpeningHour.OpeningHour1" class="form-control" />
-			<span asp-validation-for="@Model.DistributionPoint.OpeningHour.OpeningHour1" class="text-danger"></span>
-			</div>*@
+			<div class="form-group">
+			<label asp-for="@Model.DistributionPoint.OpeningHours.First().OpenHours" class="control-label"></label>
+			<input asp-for="@Model.DistributionPoint.OpeningHours.First().OpenHours" class="form-control" />
+			<span asp-validation-for="@Model.DistributionPoint.OpeningHours.First().OpenHours" class="text-danger"></span>
+			</div>
 			<div class="form-group">
 				<input type="submit" value="Create" class="btn btn-primary" /> |
 				<a asp-page="GetDistributionPoints">Tilbage til liste</a>
