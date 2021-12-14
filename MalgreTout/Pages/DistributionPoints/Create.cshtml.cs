@@ -13,8 +13,10 @@ namespace MalgreTout.Pages.DistributionPoints
     {
         [BindProperty]
         public DistributionPoint DistributionPoint { get; set; } = new DistributionPoint();
+        public IEnumerable<DistributionPoint> DistributionPoints { get; set; }
         public void OnGet(int id)
         {
+            DistributionPoints = distributionService.GetDistributionPoints();
             DistributionPoint.LocationId = id;
         }
         IDistributionService distributionService;
