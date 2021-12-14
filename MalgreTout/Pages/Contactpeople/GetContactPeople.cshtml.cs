@@ -12,6 +12,8 @@ namespace MalgreTout.Pages.Contactpeople
     public class GetContactPeopleModel : PageModel
     {
         [BindProperty(SupportsGet = true)]
+        public IEnumerable<DistributionPoint> DistributionPoints { get; set; }
+        IDistributionService distributionService { get; set; }
         public IEnumerable<Contactperson> Contactpeople { get; set; }
         IContactPeopleService contactPeopleService { get; set; }
         public GetContactPeopleModel(IContactPeopleService service)
@@ -21,6 +23,7 @@ namespace MalgreTout.Pages.Contactpeople
         public void OnGet(int id)
         {
             Contactpeople = contactPeopleService.GetContactPeople(id);
+            DistributionPoints = distributionService.GetDistributionPointsId(id);
         }
     }
 }

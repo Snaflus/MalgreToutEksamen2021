@@ -1,10 +1,51 @@
 ﻿@page
 @model MalgreTout.Pages.Contactpeople.GetContactPeopleModel
 @{ ViewData["Title"] = "Kontakt"; }
-<h1> @Html.DisplayFor(model => model.Contactpeople.First().Location.Company)</h1>
+
+<h1> @Html.DisplayFor(model => model.DistributionPoints.First().Company)</h1>
+
 <table class="table">
 	<tbody>
-		@if (Model.Contactpeople != null)
+		@if (Model.DistributionPoints.Count() != 0)
+		{
+			@foreach (var item in Model.DistributionPoints)
+			{
+				<tr>
+					<th>Adresse</th>
+					@if (item.Address == null)
+					{
+						<td></td>
+					}
+					else
+					{
+						<td> @item.Address</td>
+					}
+				</tr>
+				<tr>
+					<th>Postnummer</th>
+					@if (item.Zipcode == 0)
+					{
+						<td></td>
+					}
+					else
+					{
+						<td> @item.Zipcode</td>
+					}
+				</tr>
+				<tr>
+					<th>By</th>
+					@if (item.ZipcodeNavigation.City == null)
+					{
+						<td></td>
+					}
+					else
+					{
+						<td> @item.ZipcodeNavigation.City</td>
+					}
+				</tr>
+			}
+		}
+		@if (Model.Contactpeople.Count() != 0)
 		{
 			@foreach (var item in Model.Contactpeople)
 			{
@@ -39,12 +80,12 @@
 					}
 					else
 					{
-				<td>
-					@foreach (var i in item.Location.OpeningHours)
-					{
-						@i.WeekDay <br /> @i.OpenHours <br />
-					}
-				</td>
+						<td>
+							@foreach (var i in item.Location.OpeningHours)
+							{
+								@i.WeekDay <br /> @i.OpenHours <br />
+							}
+						</td>
 					}
 				</tr>
 			}

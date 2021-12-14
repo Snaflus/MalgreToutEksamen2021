@@ -21,6 +21,11 @@ namespace MalgreTout.Services.EFServices
             return this.context.Set<DistributionPoint>().Where(s => s.Company.ToUpper().Contains(filter.ToUpper())).AsNoTracking().ToList();
         }
 
+        public IEnumerable<DistributionPoint> GetDistributionPointsId(int filter)
+        {
+            return this.context.Set<DistributionPoint>().Where(s => s.LocationId.Equals(filter)).AsNoTracking().ToList();
+        }
+
         public IEnumerable<DistributionPoint> GetDistributionPoints()
         {
             return context.DistributionPoints
@@ -58,6 +63,5 @@ namespace MalgreTout.Services.EFServices
                 .FirstOrDefault(m => m.LocationId == id);
             return distributionPoint;
         }
-
     }
 }

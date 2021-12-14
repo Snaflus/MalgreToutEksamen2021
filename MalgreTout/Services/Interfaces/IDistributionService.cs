@@ -11,6 +11,7 @@ namespace MalgreTout.Services.Interfaces
     public interface IDistributionService
     {
         IEnumerable<DistributionPoint> GetDistributionPoints(string filter);
+        IEnumerable<DistributionPoint> GetDistributionPointsId(int filter);
         IEnumerable<DistributionPoint> GetDistributionPoints();
         void AddDistributionPoint(DistributionPoint distributionPoint);
         void DeleteDistributionPoint(DistributionPoint distributionPoint);
