@@ -18,12 +18,20 @@ namespace MalgreTout.Services.EFServices
 
         public IEnumerable<DistributionPoint> GetDistributionPoints(string filter)
         {
-            return this.context.Set<DistributionPoint>().Where(s => s.Company.ToUpper().Contains(filter.ToUpper())).AsNoTracking().ToList();
+            return context.DistributionPoints
+                .Include(s => s.ZipcodeNavigation)
+                .Include(c => c.OpeningHours)
+                .Include(v => v.Contactpeople)
+                .Where(s => s.Company.ToUpper().Contains(filter.ToUpper())).AsNoTracking().ToList();
         }
 
         public IEnumerable<DistributionPoint> GetDistributionPointsId(int filter)
         {
-            return this.context.Set<DistributionPoint>().Where(s => s.LocationId.Equals(filter)).AsNoTracking().ToList();
+            return context.DistributionPoints
+                .Include(s => s.ZipcodeNavigation)
+                .Include(c => c.OpeningHours)
+                .Include(v => v.Contactpeople)
+                .Where(s => s.LocationId.Equals(filter)).AsNoTracking().ToList();
         }
 
         public IEnumerable<DistributionPoint> GetDistributionPoints()

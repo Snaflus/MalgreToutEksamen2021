@@ -45,9 +45,9 @@
 				</tr>
 			}
 		}
-		@if (Model.Contactpeople.Count() != 0)
+		@if (Model.DistributionPoints.First().Contactpeople.Count() != 0)
 		{
-			@foreach (var item in Model.Contactpeople)
+			@foreach (var item in Model.DistributionPoints.First().Contactpeople)
 			{
 				<tr>
 					<th>Email</th>
@@ -89,6 +89,12 @@
 					}
 				</tr>
 			}
+		}
+		else
+		{ /*Fejlhåndtering hvis kontakt data ikke findes*/
+			<tr><th>Email</th><td></td></tr>
+			<tr><th>Telefon</th><td></td></tr>
+			<tr><th>Åbningstider</th><td><td></td></tr>
 		}
 	</tbody>
 </table>

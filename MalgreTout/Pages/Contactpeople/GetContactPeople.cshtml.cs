@@ -14,15 +14,12 @@ namespace MalgreTout.Pages.Contactpeople
         [BindProperty(SupportsGet = true)]
         public IEnumerable<DistributionPoint> DistributionPoints { get; set; }
         IDistributionService distributionService { get; set; }
-        public IEnumerable<Contactperson> Contactpeople { get; set; }
-        IContactPeopleService contactPeopleService { get; set; }
-        public GetContactPeopleModel(IContactPeopleService service)
+        public GetContactPeopleModel(IDistributionService service)
         {
-            contactPeopleService = service;
+            distributionService = service;
         }
         public void OnGet(int id)
         {
-            Contactpeople = contactPeopleService.GetContactPeople(id);
             DistributionPoints = distributionService.GetDistributionPointsId(id);
         }
     }
