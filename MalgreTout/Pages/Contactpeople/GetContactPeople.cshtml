@@ -45,9 +45,9 @@
 				</tr>
 			}
 		}
-		@if (Model.DistributionPoints.First().Contactpeople.Count() != 0)
+		@if (Model.Contactpeople.Count() != 0)
 		{
-			@foreach (var item in Model.DistributionPoints.First().Contactpeople)
+			@foreach (var item in Model.Contactpeople)
 			{
 				<tr>
 					<th>Email</th>
