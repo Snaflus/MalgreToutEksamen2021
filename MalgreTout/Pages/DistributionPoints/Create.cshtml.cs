@@ -35,10 +35,6 @@ namespace MalgreTout.Pages.DistributionPoints
                 return Page();
             }
             distributionService.AddDistributionPoint(DistributionPoint);
-            Contactperson.LocationId = DistributionPoint.LocationId;
-            contactPeopleService.AddContactperson(Contactperson);
-            OpeningHour.LocationId = DistributionPoint.LocationId;
-            openingHourService.UpdateOpeningHour(OpeningHour);
             return RedirectToPage("Create2");
         }
     }

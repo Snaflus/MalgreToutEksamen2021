@@ -18,6 +18,10 @@ namespace MalgreTout.Pages.DistributionPoints
         public void OnGet()
         {
             DistributionPoint = distributionService.GetLastDistributionPoint();
+            Contactperson.LocationId = DistributionPoint.LocationId;
+            contactPeopleService.AddContactperson(Contactperson);
+            OpeningHour.LocationId = DistributionPoint.LocationId;
+            openingHourService.AddOpeningHour(OpeningHour);
         }
         IDistributionService distributionService;
         IContactPeopleService contactPeopleService;

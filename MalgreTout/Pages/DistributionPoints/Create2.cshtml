@@ -2,47 +2,47 @@
 @model MalgreTout.Pages.DistributionPoints.Create2Model
 @{ ViewData["Title"] = "Opret lokation"; }
 
-<div>
+@*<div>
 	<h4>Lokation</h4>
 	<hr />
-		<dl class="row">
-			<dt class="col-sm-2">
-				@Html.DisplayNameFor(model => model.DistributionPoint.LocationId)
-			</dt>
-			<dd class="col-sm-10">
-				@Html.DisplayFor(model => model.DistributionPoint.LocationId)
-			</dd>
-			<dt class="col-sm-2">
-				@Html.DisplayNameFor(model => model.DistributionPoint.Company)
-			</dt>
-			<dd class="col-sm-10">
-				@Html.DisplayFor(model => model.DistributionPoint.Company)
-			</dd>
-			<dt class="col-sm-2">
-				@Html.DisplayNameFor(model => model.DistributionPoint.Address)
-			</dt>
-			<dd class="col-sm-10">
-				@Html.DisplayFor(model => model.DistributionPoint.Address)
-			</dd>
-			<dt class="col-sm-2">
-				@Html.DisplayNameFor(model => model.DistributionPoint.Zipcode)
-			</dt>
-			<dd class="col-sm-10">
-				@Html.DisplayFor(model => model.DistributionPoint.Zipcode)
-			</dd>
-		</dl>
-</div>
+	<dl class="row">
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.DistributionPoint.LocationId)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.DistributionPoint.LocationId)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.DistributionPoint.Company)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.DistributionPoint.Company)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.DistributionPoint.Address)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.DistributionPoint.Address)
+		</dd>
+		<dt class="col-sm-2">
+			@Html.DisplayNameFor(model => model.DistributionPoint.Zipcode)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.DistributionPoint.Zipcode)
+		</dd>
+	</dl>
+</div>*@
 
 <div class="row">
 	<div class="col-md-4">
 		<form method="post">
 			<div asp-validation-summary="  ModelOnly  " class="text-danger"></div>
 			@*Opening hours*@
-			<div class="form-group">
-				<label hidden="hidden" asp-for="@Model.OpeningHour.LocationId" class="control-label"></label>
-				<input hidden="hidden" asp-for="@Model.OpeningHour.LocationId" value="@Model.DistributionPoint.LocationId" class="form-control" />
-				<span asp-validation-for="@Model.OpeningHour.LocationId" class="text-danger"></span>
-			</div>
+			@*<div class="form-group">
+			<label readonly asp-for="@Model.OpeningHour.LocationId" class="control-label"></label>
+			<input readonly asp-for="@Model.OpeningHour.LocationId" value="@Model.DistributionPoint.LocationId" class="form-control" />
+			<span asp-validation-for="@Model.OpeningHour.LocationId" class="text-danger"></span>
+		</div>*@
 			<div class="form-group">
 				<label asp-for="@Model.OpeningHour.WeekDay" class="control-label"></label>
 				<input asp-for="@Model.OpeningHour.WeekDay" class="form-control" />
@@ -54,11 +54,11 @@
 				<span asp-validation-for="@Model.OpeningHour.OpenHours" class="text-danger"></span>
 			</div>
 			@*Contact person*@
-			<div class="form-group">
-				<label hidden="hidden" asp-for="@Model.Contactperson.LocationId" class="control-label"></label>
-				<input hidden="hidden" asp-for="@Model.Contactperson.LocationId" value="@Model.DistributionPoint.LocationId" class="form-control" />
-				<span asp-validation-for="@Model.Contactperson.LocationId" class="text-danger"></span>
-			</div>
+			@*<div class="form-group">
+			<label readonly asp-for="@Model.Contactperson.LocationId" class="control-label"></label>
+			<input readonly asp-for="@Model.Contactperson.LocationId" value="@Model.DistributionPoint.LocationId" class="form-control" />
+			<span asp-validation-for="@Model.Contactperson.LocationId" class="text-danger"></span>
+		</div>*@
 			<div class="form-group">
 				<label asp-for="@Model.Contactperson.Contactperson1" class="control-label"></label>
 				<input asp-for="@Model.Contactperson.Contactperson1" class="form-control" />
