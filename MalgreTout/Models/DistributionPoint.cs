@@ -33,13 +33,10 @@ namespace MalgreTout.Models
         [ForeignKey(nameof(Zipcode))]
         [InverseProperty("DistributionPoints")]
         public virtual Zipcode ZipcodeNavigation { get; set; }
-
         [InverseProperty(nameof(Contactperson.Location))]
         public virtual ICollection<Contactperson> Contactpeople { get; set; }
-
         [InverseProperty(nameof(NoOfMagazine.Location))]
         public virtual ICollection<NoOfMagazine> NoOfMagazines { get; set; }
-
         [InverseProperty(nameof(OpeningHour.Location))]
         public virtual ICollection<OpeningHour> OpeningHours { get; set; }
     }

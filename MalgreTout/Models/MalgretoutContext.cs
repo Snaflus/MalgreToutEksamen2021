@@ -39,7 +39,7 @@ namespace MalgreTout.Models
             modelBuilder.Entity<Contactperson>(entity =>
             {
                 entity.HasKey(e => e.ContactId)
-                    .HasName("PK__Contactp__82ACC1CD9AF4750F");
+                    .HasName("PK__Contactp__82ACC1CD1FB62175");
 
                 entity.Property(e => e.Contactperson1).IsUnicode(false);
 
@@ -50,13 +50,13 @@ namespace MalgreTout.Models
                 entity.HasOne(d => d.Location)
                     .WithMany(p => p.Contactpeople)
                     .HasForeignKey(d => d.LocationId)
-                    .HasConstraintName("FK__Contactpe__Locat__336AA144");
+                    .HasConstraintName("FK__Contactpe__Locat__2E1BDC42");
             });
 
             modelBuilder.Entity<DistributionPoint>(entity =>
             {
                 entity.HasKey(e => e.LocationId)
-                    .HasName("PK__Distribu__D2BA00C21BD2503D");
+                    .HasName("PK__Distribu__D2BA00C238D66166");
 
                 entity.Property(e => e.Address).IsUnicode(false);
 
@@ -66,24 +66,24 @@ namespace MalgreTout.Models
                     .WithMany(p => p.DistributionPoints)
                     .HasForeignKey(d => d.Zipcode)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Distribut__Zipco__2AD55B43");
+                    .HasConstraintName("FK__Distribut__Zipco__25869641");
             });
 
             modelBuilder.Entity<NoOfMagazine>(entity =>
             {
                 entity.HasKey(e => e.MagasineId)
-                    .HasName("PK__No_of_ma__3AD34079A6293673");
+                    .HasName("PK__No_of_ma__3AD34079C80EAF5B");
 
                 entity.HasOne(d => d.Location)
                     .WithMany(p => p.NoOfMagazines)
                     .HasForeignKey(d => d.LocationId)
-                    .HasConstraintName("FK__No_of_mag__Locat__308E3499");
+                    .HasConstraintName("FK__No_of_mag__Locat__2B3F6F97");
             });
 
             modelBuilder.Entity<OpeningHour>(entity =>
             {
                 entity.HasKey(e => e.OpeningId)
-                    .HasName("PK__Opening___F48914FF71BC8977");
+                    .HasName("PK__Opening___F48914FF48CA13B4");
 
                 entity.Property(e => e.OpenHours).IsUnicode(false);
 
@@ -92,13 +92,13 @@ namespace MalgreTout.Models
                 entity.HasOne(d => d.Location)
                     .WithMany(p => p.OpeningHours)
                     .HasForeignKey(d => d.LocationId)
-                    .HasConstraintName("FK__Opening_h__Locat__2DB1C7EE");
+                    .HasConstraintName("FK__Opening_h__Locat__286302EC");
             });
 
             modelBuilder.Entity<Zipcode>(entity =>
             {
                 entity.HasKey(e => e.Zipcode1)
-                    .HasName("PK__Zipcode__E546D6BFA7B0B168");
+                    .HasName("PK__Zipcode__E546D6BFD837321B");
 
                 entity.Property(e => e.Zipcode1).ValueGeneratedNever();
 

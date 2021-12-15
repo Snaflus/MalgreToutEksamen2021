@@ -17,7 +17,6 @@ namespace MalgreTout.Models
         [Key]
         [Column("Contact_ID")]
         public int ContactId { get; set; }
-        [Required]
         [Column("Contactperson")]
         [StringLength(40)]
         public string Contactperson1 { get; set; }
