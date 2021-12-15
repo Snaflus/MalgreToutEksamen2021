@@ -1,33 +1,42 @@
 ﻿@page
-@model MalgreTout.Pages.DistributionPoints.UpdateModel
-@{ ViewData["Title"] = "Rediger lokation"; }
+@model MalgreTout.Pages.DistributionPoints.Create2Model
+@{ ViewData["Title"] = "Opret lokation"; }
+
+<div>
+	<h4>Lokation</h4>
+	<hr />
+		<dl class="row">
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.DistributionPoint.LocationId)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.DistributionPoint.LocationId)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.DistributionPoint.Company)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.DistributionPoint.Company)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.DistributionPoint.Address)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.DistributionPoint.Address)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.DistributionPoint.Zipcode)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.DistributionPoint.Zipcode)
+			</dd>
+		</dl>
+</div>
 
 <div class="row">
 	<div class="col-md-4">
 		<form method="post">
-			<div asp-validation-summary="  ModelOnly  " class="text-danger">
-			</div>
-			<div class="form-group">
-				<label readonly asp-for="@Model.DistributionPoint.LocationId" class="control-label"></label>
-				<input readonly asp-for="@Model.DistributionPoint.LocationId" class="form-control" />
-				<span asp-validation-for="@Model.DistributionPoint.LocationId" class="text-danger"></span>
-			</div>
-			<div class="form-group">
-				<label asp-for="@Model.DistributionPoint.Company" class="control-label"></label>
-				<input asp-for="@Model.DistributionPoint.Company" class="form-control" />
-				<span asp-validation-for="@Model.DistributionPoint.Company" class="text-danger"></span>
-			</div>
-
-			<div class="form-group">
-				<label asp-for="@Model.DistributionPoint.Address" class="control-label"></label>
-				<input asp-for="@Model.DistributionPoint.Address" class="form-control" />
-				<span asp-validation-for="@Model.DistributionPoint.Address" class="text-danger"></span>
-			</div>
-			<div class="form-group">
-				<label asp-for="@Model.DistributionPoint.Zipcode" class="control-label"></label>
-				<input asp-for="@Model.DistributionPoint.Zipcode" class="form-control" />
-				<span asp-validation-for="@Model.DistributionPoint.Zipcode" class="text-danger"></span>
-			</div>
+			<div asp-validation-summary="  ModelOnly  " class="text-danger"></div>
 			@*Opening hours*@
 			<div class="form-group">
 				<label hidden="hidden" asp-for="@Model.OpeningHour.LocationId" class="control-label"></label>
@@ -66,7 +75,7 @@
 				<span asp-validation-for="@Model.Contactperson.Phone" class="text-danger"></span>
 			</div>
 			<div class="form-group">
-				<input type="submit" value="Update" class="btn btn-primary" /> |
+				<input type="submit" value="Create" class="btn btn-primary" /> |
 				<a asp-page="GetDistributionPoints">Tilbage til liste</a>
 			</div>
 		</form>

@@ -9,20 +9,20 @@ using MalgreTout.Services.Interfaces;
 
 namespace MalgreTout.Pages.DistributionPoints
 {
-    public class CreateModel : PageModel
+    public class Create2Model : PageModel
     {
         [BindProperty]
         public DistributionPoint DistributionPoint { get; set; } = new DistributionPoint();
         public Contactperson Contactperson { get; set; } = new Contactperson();
         public OpeningHour OpeningHour { get; set; } = new OpeningHour();
-        public void OnGet(int id)
+        public void OnGet()
         {
-            DistributionPoint.LocationId = id;
+            DistributionPoint = distributionService.GetLastDistributionPoint();
         }
         IDistributionService distributionService;
         IContactPeopleService contactPeopleService;
         IOpeningHourService openingHourService;
-        public CreateModel(IDistributionService service1, IContactPeopleService service2, IOpeningHourService service3)
+        public Create2Model(IDistributionService service1, IContactPeopleService service2, IOpeningHourService service3)
         {
             this.distributionService = service1;
             this.contactPeopleService = service2;
@@ -34,12 +34,9 @@ namespace MalgreTout.Pages.DistributionPoints
             {
                 return Page();
             }
-            distributionService.AddDistributionPoint(DistributionPoint);
-            Contactperson.LocationId = DistributionPoint.LocationId;
-            contactPeopleService.AddContactperson(Contactperson);
-            OpeningHour.LocationId = DistributionPoint.LocationId;
+            contactPeopleService.UpdateContactperson(Contactperson);
             openingHourService.UpdateOpeningHour(OpeningHour);
-            return RedirectToPage("Create2");
+            return RedirectToPage("GetDistributionPoints");
         }
     }
 }

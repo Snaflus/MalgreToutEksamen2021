@@ -35,7 +35,7 @@ create table No_of_magazine(
 create table Contactperson(
 	Location_ID int not null,
 	Contact_ID int identity(1,1) not null,
-	Contactperson varchar (40) not null,
+	Contactperson varchar (40),
 	Email varchar (50),
 	Phone varchar(15),
 	primary key (Contact_ID),

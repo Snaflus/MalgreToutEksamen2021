@@ -13,14 +13,20 @@ namespace MalgreTout.Pages.DistributionPoints
     {
         [BindProperty]
         public DistributionPoint DistributionPoint { get; set; } = new DistributionPoint();
+        public Contactperson Contactperson { get; set; } = new Contactperson();
+        public OpeningHour OpeningHour { get; set; } = new OpeningHour();
         public void OnGet(int id)
         {
             DistributionPoint = distributionService.GetDistributionPointById(id);
         }
         IDistributionService distributionService;
-        public UpdateModel(IDistributionService service)
+        IContactPeopleService contactPeopleService;
+        IOpeningHourService openingHourService;
+        public UpdateModel(IDistributionService service1, IContactPeopleService service2, IOpeningHourService service3)
         {
-            this.distributionService = service;
+            this.distributionService = service1;
+            this.contactPeopleService = service2;
+            this.openingHourService = service3;
         }
         public IActionResult OnPost()
         {
@@ -29,6 +35,8 @@ namespace MalgreTout.Pages.DistributionPoints
                 return Page();
             }
             distributionService.UpdateDistributionPoint(DistributionPoint);
+            contactPeopleService.UpdateContactperson(Contactperson);
+            openingHourService.UpdateOpeningHour(OpeningHour);
             return RedirectToPage("GetDistributionPoints");
         }
     }

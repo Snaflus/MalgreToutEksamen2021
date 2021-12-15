@@ -17,5 +17,6 @@ namespace MalgreTout.Services.Interfaces
         void DeleteDistributionPoint(DistributionPoint distributionPoint);
         void UpdateDistributionPoint(DistributionPoint DistributionPoint);
         DistributionPoint GetDistributionPointById(int id);
+        DistributionPoint GetLastDistributionPoint();
     }
 }

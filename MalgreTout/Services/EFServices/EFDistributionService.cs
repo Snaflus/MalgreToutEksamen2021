@@ -71,5 +71,10 @@ namespace MalgreTout.Services.EFServices
                 .FirstOrDefault(m => m.LocationId == id);
             return distributionPoint;
         }
+
+        public DistributionPoint GetLastDistributionPoint()
+        {
+            return context.DistributionPoints.OrderBy(i => i.LocationId).Last();
+        }
     }
 }
