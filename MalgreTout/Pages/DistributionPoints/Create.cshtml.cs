@@ -13,6 +13,7 @@ namespace MalgreTout.Pages.DistributionPoints
     {
         [BindProperty]
         public DistributionPoint DistributionPoint { get; set; } = new DistributionPoint();
+        public Contactperson Contactperson { get; set; } = new Contactperson();
         public void OnGet(int id)
         {
             DistributionPoint.LocationId = id;
@@ -30,6 +31,7 @@ namespace MalgreTout.Pages.DistributionPoints
             {
                 return Page();
             }
+            contactPeopleService.AddContactperson(Contactperson);
             distributionService.AddDistributionPoint(DistributionPoint);
             return RedirectToPage("GetDistributionPoints");
         }

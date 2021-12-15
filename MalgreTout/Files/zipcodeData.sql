@@ -1,3 +1,2464 @@
+
+/* INSERT QUERY NO: 1 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (800, 'Høje Taastrup');
+
+/* INSERT QUERY NO: 2 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (900, 'København C');
+
+/* INSERT QUERY NO: 3 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (917, 'Københavns Pakkecent');
+
+/* INSERT QUERY NO: 4 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (960, 'Udland');
+
+/* INSERT QUERY NO: 5 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (999, 'København C');
+
+/* INSERT QUERY NO: 6 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1000, 'København K');
+
+/* INSERT QUERY NO: 7 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1050, 'København K');
+
+/* INSERT QUERY NO: 8 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1051, 'København K');
+
+/* INSERT QUERY NO: 9 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1052, 'København K');
+
+/* INSERT QUERY NO: 10 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1053, 'København K');
+
+/* INSERT QUERY NO: 11 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1054, 'København K');
+
+/* INSERT QUERY NO: 12 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1055, 'København K');
+
+/* INSERT QUERY NO: 13 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1056, 'København K');
+
+/* INSERT QUERY NO: 14 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1057, 'København K');
+
+/* INSERT QUERY NO: 15 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1058, 'København K');
+
+/* INSERT QUERY NO: 16 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1059, 'København K');
+
+/* INSERT QUERY NO: 17 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1060, 'København K');
+
+/* INSERT QUERY NO: 18 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1061, 'København K');
+
+/* INSERT QUERY NO: 19 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1062, 'København K');
+
+/* INSERT QUERY NO: 20 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1063, 'København K');
+
+/* INSERT QUERY NO: 21 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1064, 'København K');
+
+/* INSERT QUERY NO: 22 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1065, 'København K');
+
+/* INSERT QUERY NO: 23 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1066, 'København K');
+
+/* INSERT QUERY NO: 24 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1067, 'København K');
+
+/* INSERT QUERY NO: 25 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1068, 'København K');
+
+/* INSERT QUERY NO: 26 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1069, 'København K');
+
+/* INSERT QUERY NO: 27 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1070, 'København K');
+
+/* INSERT QUERY NO: 28 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1071, 'København K');
+
+/* INSERT QUERY NO: 29 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1072, 'København K');
+
+/* INSERT QUERY NO: 30 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1073, 'København K');
+
+/* INSERT QUERY NO: 31 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1074, 'København K');
+
+/* INSERT QUERY NO: 32 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1092, 'København K');
+
+/* INSERT QUERY NO: 33 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1093, 'København K');
+
+/* INSERT QUERY NO: 34 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1095, 'København K');
+
+/* INSERT QUERY NO: 35 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1098, 'København K');
+
+/* INSERT QUERY NO: 36 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1100, 'København K');
+
+/* INSERT QUERY NO: 37 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1101, 'København K');
+
+/* INSERT QUERY NO: 38 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1102, 'København K');
+
+/* INSERT QUERY NO: 39 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1103, 'København K');
+
+/* INSERT QUERY NO: 40 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1104, 'København K');
+
+/* INSERT QUERY NO: 41 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1105, 'København K');
+
+/* INSERT QUERY NO: 42 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1106, 'København K');
+
+/* INSERT QUERY NO: 43 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1107, 'København K');
+
+/* INSERT QUERY NO: 44 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1110, 'København K');
+
+/* INSERT QUERY NO: 45 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1111, 'København K');
+
+/* INSERT QUERY NO: 46 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1112, 'København K');
+
+/* INSERT QUERY NO: 47 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1113, 'København K');
+
+/* INSERT QUERY NO: 48 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1114, 'København K');
+
+/* INSERT QUERY NO: 49 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1115, 'København K');
+
+/* INSERT QUERY NO: 50 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1116, 'København K');
+
+/* INSERT QUERY NO: 51 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1117, 'København K');
+
+/* INSERT QUERY NO: 52 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1118, 'København K');
+
+/* INSERT QUERY NO: 53 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1119, 'København K');
+
+/* INSERT QUERY NO: 54 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1120, 'København K');
+
+/* INSERT QUERY NO: 55 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1121, 'København K');
+
+/* INSERT QUERY NO: 56 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1122, 'København K');
+
+/* INSERT QUERY NO: 57 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1123, 'København K');
+
+/* INSERT QUERY NO: 58 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1124, 'København K');
+
+/* INSERT QUERY NO: 59 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1125, 'København K');
+
+/* INSERT QUERY NO: 60 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1126, 'København K');
+
+/* INSERT QUERY NO: 61 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1127, 'København K');
+
+/* INSERT QUERY NO: 62 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1128, 'København K');
+
+/* INSERT QUERY NO: 63 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1129, 'København K');
+
+/* INSERT QUERY NO: 64 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1130, 'København K');
+
+/* INSERT QUERY NO: 65 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1131, 'København K');
+
+/* INSERT QUERY NO: 66 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1140, 'København K');
+
+/* INSERT QUERY NO: 67 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1147, 'København K');
+
+/* INSERT QUERY NO: 68 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1148, 'København K');
+
+/* INSERT QUERY NO: 69 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1150, 'København K');
+
+/* INSERT QUERY NO: 70 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1151, 'København K');
+
+/* INSERT QUERY NO: 71 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1152, 'København K');
+
+/* INSERT QUERY NO: 72 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1153, 'København K');
+
+/* INSERT QUERY NO: 73 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1154, 'København K');
+
+/* INSERT QUERY NO: 74 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1155, 'København K');
+
+/* INSERT QUERY NO: 75 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1156, 'København K');
+
+/* INSERT QUERY NO: 76 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1157, 'København K');
+
+/* INSERT QUERY NO: 77 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1158, 'København K');
+
+/* INSERT QUERY NO: 78 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1159, 'København K');
+
+/* INSERT QUERY NO: 79 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1160, 'København K');
+
+/* INSERT QUERY NO: 80 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1161, 'København K');
+
+/* INSERT QUERY NO: 81 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1162, 'København K');
+
+/* INSERT QUERY NO: 82 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1164, 'København K');
+
+/* INSERT QUERY NO: 83 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1165, 'København K');
+
+/* INSERT QUERY NO: 84 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1166, 'København K');
+
+/* INSERT QUERY NO: 85 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1167, 'København K');
+
+/* INSERT QUERY NO: 86 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1168, 'København K');
+
+/* INSERT QUERY NO: 87 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1169, 'København K');
+
+/* INSERT QUERY NO: 88 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1170, 'København K');
+
+/* INSERT QUERY NO: 89 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1171, 'København K');
+
+/* INSERT QUERY NO: 90 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1172, 'København K');
+
+/* INSERT QUERY NO: 91 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1173, 'København K');
+
+/* INSERT QUERY NO: 92 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1174, 'København K');
+
+/* INSERT QUERY NO: 93 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1175, 'København K');
+
+/* INSERT QUERY NO: 94 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1200, 'København K');
+
+/* INSERT QUERY NO: 95 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1201, 'København K');
+
+/* INSERT QUERY NO: 96 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1202, 'København K');
+
+/* INSERT QUERY NO: 97 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1203, 'København K');
+
+/* INSERT QUERY NO: 98 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1204, 'København K');
+
+/* INSERT QUERY NO: 99 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1205, 'København K');
+
+/* INSERT QUERY NO: 100 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1206, 'København K');
+
+/* INSERT QUERY NO: 101 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1207, 'København K');
+
+/* INSERT QUERY NO: 102 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1208, 'København K');
+
+/* INSERT QUERY NO: 103 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1209, 'København K');
+
+/* INSERT QUERY NO: 104 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1210, 'København K');
+
+/* INSERT QUERY NO: 105 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1211, 'København K');
+
+/* INSERT QUERY NO: 106 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1213, 'København K');
+
+/* INSERT QUERY NO: 107 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1214, 'København K');
+
+/* INSERT QUERY NO: 108 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1215, 'København K');
+
+/* INSERT QUERY NO: 109 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1216, 'København K');
+
+/* INSERT QUERY NO: 110 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1217, 'København K');
+
+/* INSERT QUERY NO: 111 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1218, 'København K');
+
+/* INSERT QUERY NO: 112 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1219, 'København K');
+
+/* INSERT QUERY NO: 113 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1220, 'København K');
+
+/* INSERT QUERY NO: 114 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1221, 'København K');
+
+/* INSERT QUERY NO: 115 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1240, 'København K');
+
+/* INSERT QUERY NO: 116 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1250, 'København K');
+
+/* INSERT QUERY NO: 117 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1251, 'København K');
+
+/* INSERT QUERY NO: 118 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1253, 'København K');
+
+/* INSERT QUERY NO: 119 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1254, 'København K');
+
+/* INSERT QUERY NO: 120 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1255, 'København K');
+
+/* INSERT QUERY NO: 121 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1256, 'København K');
+
+/* INSERT QUERY NO: 122 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1257, 'København K');
+
+/* INSERT QUERY NO: 123 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1259, 'København K');
+
+/* INSERT QUERY NO: 124 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1260, 'København K');
+
+/* INSERT QUERY NO: 125 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1261, 'København K');
+
+/* INSERT QUERY NO: 126 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1263, 'København K');
+
+/* INSERT QUERY NO: 127 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1264, 'København K');
+
+/* INSERT QUERY NO: 128 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1265, 'København K');
+
+/* INSERT QUERY NO: 129 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1266, 'København K');
+
+/* INSERT QUERY NO: 130 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1267, 'København K');
+
+/* INSERT QUERY NO: 131 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1268, 'København K');
+
+/* INSERT QUERY NO: 132 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1270, 'København K');
+
+/* INSERT QUERY NO: 133 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1271, 'København K');
+
+/* INSERT QUERY NO: 134 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1291, 'København K');
+
+/* INSERT QUERY NO: 135 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1300, 'København K');
+
+/* INSERT QUERY NO: 136 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1301, 'København K');
+
+/* INSERT QUERY NO: 137 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1302, 'København K');
+
+/* INSERT QUERY NO: 138 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1303, 'København K');
+
+/* INSERT QUERY NO: 139 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1304, 'København K');
+
+/* INSERT QUERY NO: 140 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1306, 'København K');
+
+/* INSERT QUERY NO: 141 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1307, 'København K');
+
+/* INSERT QUERY NO: 142 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1308, 'København K');
+
+/* INSERT QUERY NO: 143 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1309, 'København K');
+
+/* INSERT QUERY NO: 144 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1310, 'København K');
+
+/* INSERT QUERY NO: 145 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1311, 'København K');
+
+/* INSERT QUERY NO: 146 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1312, 'København K');
+
+/* INSERT QUERY NO: 147 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1313, 'København K');
+
+/* INSERT QUERY NO: 148 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1314, 'København K');
+
+/* INSERT QUERY NO: 149 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1315, 'København K');
+
+/* INSERT QUERY NO: 150 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1316, 'København K');
+
+/* INSERT QUERY NO: 151 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1317, 'København K');
+
+/* INSERT QUERY NO: 152 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1318, 'København K');
+
+/* INSERT QUERY NO: 153 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1319, 'København K');
+
+/* INSERT QUERY NO: 154 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1320, 'København K');
+
+/* INSERT QUERY NO: 155 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1321, 'København K');
+
+/* INSERT QUERY NO: 156 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1322, 'København K');
+
+/* INSERT QUERY NO: 157 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1323, 'København K');
+
+/* INSERT QUERY NO: 158 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1324, 'København K');
+
+/* INSERT QUERY NO: 159 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1325, 'København K');
+
+/* INSERT QUERY NO: 160 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1326, 'København K');
+
+/* INSERT QUERY NO: 161 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1327, 'København K');
+
+/* INSERT QUERY NO: 162 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1328, 'København K');
+
+/* INSERT QUERY NO: 163 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1329, 'København K');
+
+/* INSERT QUERY NO: 164 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1350, 'København K');
+
+/* INSERT QUERY NO: 165 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1352, 'København K');
+
+/* INSERT QUERY NO: 166 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1353, 'København K');
+
+/* INSERT QUERY NO: 167 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1354, 'København K');
+
+/* INSERT QUERY NO: 168 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1355, 'København K');
+
+/* INSERT QUERY NO: 169 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1356, 'København K');
+
+/* INSERT QUERY NO: 170 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1357, 'København K');
+
+/* INSERT QUERY NO: 171 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1358, 'København K');
+
+/* INSERT QUERY NO: 172 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1359, 'København K');
+
+/* INSERT QUERY NO: 173 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1360, 'København K');
+
+/* INSERT QUERY NO: 174 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1361, 'København K');
+
+/* INSERT QUERY NO: 175 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1362, 'København K');
+
+/* INSERT QUERY NO: 176 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1363, 'København K');
+
+/* INSERT QUERY NO: 177 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1364, 'København K');
+
+/* INSERT QUERY NO: 178 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1365, 'København K');
+
+/* INSERT QUERY NO: 179 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1366, 'København K');
+
+/* INSERT QUERY NO: 180 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1367, 'København K');
+
+/* INSERT QUERY NO: 181 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1368, 'København K');
+
+/* INSERT QUERY NO: 182 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1369, 'København K');
+
+/* INSERT QUERY NO: 183 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1370, 'København K');
+
+/* INSERT QUERY NO: 184 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1371, 'København K');
+
+/* INSERT QUERY NO: 185 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1400, 'København K');
+
+/* INSERT QUERY NO: 186 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1401, 'København K');
+
+/* INSERT QUERY NO: 187 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1402, 'København K');
+
+/* INSERT QUERY NO: 188 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1403, 'København K');
+
+/* INSERT QUERY NO: 189 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1406, 'København K');
+
+/* INSERT QUERY NO: 190 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1407, 'København K');
+
+/* INSERT QUERY NO: 191 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1408, 'København K');
+
+/* INSERT QUERY NO: 192 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1409, 'København K');
+
+/* INSERT QUERY NO: 193 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1410, 'København K');
+
+/* INSERT QUERY NO: 194 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1411, 'København K');
+
+/* INSERT QUERY NO: 195 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1412, 'København K');
+
+/* INSERT QUERY NO: 196 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1413, 'København K');
+
+/* INSERT QUERY NO: 197 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1414, 'København K');
+
+/* INSERT QUERY NO: 198 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1415, 'København K');
+
+/* INSERT QUERY NO: 199 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1416, 'København K');
+
+/* INSERT QUERY NO: 200 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1417, 'København K');
+
+/* INSERT QUERY NO: 201 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1418, 'København K');
+
+/* INSERT QUERY NO: 202 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1419, 'København K');
+
+/* INSERT QUERY NO: 203 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1420, 'København K');
+
+/* INSERT QUERY NO: 204 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1421, 'København K');
+
+/* INSERT QUERY NO: 205 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1422, 'København K');
+
+/* INSERT QUERY NO: 206 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1423, 'København K');
+
+/* INSERT QUERY NO: 207 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1424, 'København K');
+
+/* INSERT QUERY NO: 208 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1425, 'København K');
+
+/* INSERT QUERY NO: 209 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1426, 'København K');
+
+/* INSERT QUERY NO: 210 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1427, 'København K');
+
+/* INSERT QUERY NO: 211 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1428, 'København K');
+
+/* INSERT QUERY NO: 212 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1429, 'København K');
+
+/* INSERT QUERY NO: 213 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1430, 'København K');
+
+/* INSERT QUERY NO: 214 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1431, 'København K');
+
+/* INSERT QUERY NO: 215 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1432, 'København K');
+
+/* INSERT QUERY NO: 216 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1433, 'København K');
+
+/* INSERT QUERY NO: 217 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1434, 'København K');
+
+/* INSERT QUERY NO: 218 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1435, 'København K');
+
+/* INSERT QUERY NO: 219 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1436, 'København K');
+
+/* INSERT QUERY NO: 220 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1437, 'København K');
+
+/* INSERT QUERY NO: 221 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1438, 'København K');
+
+/* INSERT QUERY NO: 222 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1439, 'København K');
+
+/* INSERT QUERY NO: 223 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1440, 'København K');
+
+/* INSERT QUERY NO: 224 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1441, 'København K');
+
+/* INSERT QUERY NO: 225 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1448, 'København K');
+
+/* INSERT QUERY NO: 226 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1450, 'København K');
+
+/* INSERT QUERY NO: 227 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1451, 'København K');
+
+/* INSERT QUERY NO: 228 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1452, 'København K');
+
+/* INSERT QUERY NO: 229 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1453, 'København K');
+
+/* INSERT QUERY NO: 230 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1454, 'København K');
+
+/* INSERT QUERY NO: 231 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1455, 'København K');
+
+/* INSERT QUERY NO: 232 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1456, 'København K');
+
+/* INSERT QUERY NO: 233 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1457, 'København K');
+
+/* INSERT QUERY NO: 234 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1458, 'København K');
+
+/* INSERT QUERY NO: 235 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1459, 'København K');
+
+/* INSERT QUERY NO: 236 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1460, 'København K');
+
+/* INSERT QUERY NO: 237 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1462, 'København K');
+
+/* INSERT QUERY NO: 238 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1463, 'København K');
+
+/* INSERT QUERY NO: 239 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1464, 'København K');
+
+/* INSERT QUERY NO: 240 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1466, 'København K');
+
+/* INSERT QUERY NO: 241 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1467, 'København K');
+
+/* INSERT QUERY NO: 242 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1468, 'København K');
+
+/* INSERT QUERY NO: 243 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1470, 'København K');
+
+/* INSERT QUERY NO: 244 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1471, 'København K');
+
+/* INSERT QUERY NO: 245 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1472, 'København K');
+
+/* INSERT QUERY NO: 246 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1500, 'København V');
+
+/* INSERT QUERY NO: 247 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1513, 'Centraltastning');
+
+/* INSERT QUERY NO: 248 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1532, 'København V');
+
+/* INSERT QUERY NO: 249 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1533, 'København V');
+
+/* INSERT QUERY NO: 250 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1550, 'København V');
+
+/* INSERT QUERY NO: 251 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1551, 'København V');
+
+/* INSERT QUERY NO: 252 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1552, 'København V');
+
+/* INSERT QUERY NO: 253 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1553, 'København V');
+
+/* INSERT QUERY NO: 254 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1554, 'København V');
+
+/* INSERT QUERY NO: 255 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1555, 'København V');
+
+/* INSERT QUERY NO: 256 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1556, 'København V');
+
+/* INSERT QUERY NO: 257 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1557, 'København V');
+
+/* INSERT QUERY NO: 258 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1558, 'København V');
+
+/* INSERT QUERY NO: 259 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1559, 'København V');
+
+/* INSERT QUERY NO: 260 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1560, 'København V');
+
+/* INSERT QUERY NO: 261 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1561, 'København V');
+
+/* INSERT QUERY NO: 262 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1562, 'København V');
+
+/* INSERT QUERY NO: 263 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1563, 'København V');
+
+/* INSERT QUERY NO: 264 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1564, 'København V');
+
+/* INSERT QUERY NO: 265 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1566, 'København V');
+
+/* INSERT QUERY NO: 266 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1567, 'København V');
+
+/* INSERT QUERY NO: 267 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1568, 'København V');
+
+/* INSERT QUERY NO: 268 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1569, 'København V');
+
+/* INSERT QUERY NO: 269 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1570, 'København V');
+
+/* INSERT QUERY NO: 270 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1571, 'København V');
+
+/* INSERT QUERY NO: 271 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1572, 'København V');
+
+/* INSERT QUERY NO: 272 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1573, 'København V');
+
+/* INSERT QUERY NO: 273 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1574, 'København V');
+
+/* INSERT QUERY NO: 274 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1575, 'København V');
+
+/* INSERT QUERY NO: 275 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1576, 'København V');
+
+/* INSERT QUERY NO: 276 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1577, 'København V');
+
+/* INSERT QUERY NO: 277 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1592, 'København V');
+
+/* INSERT QUERY NO: 278 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1599, 'København V');
+
+/* INSERT QUERY NO: 279 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1600, 'København V');
+
+/* INSERT QUERY NO: 280 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1601, 'København V');
+
+/* INSERT QUERY NO: 281 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1602, 'København V');
+
+/* INSERT QUERY NO: 282 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1603, 'København V');
+
+/* INSERT QUERY NO: 283 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1604, 'København V');
+
+/* INSERT QUERY NO: 284 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1606, 'København V');
+
+/* INSERT QUERY NO: 285 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1607, 'København V');
+
+/* INSERT QUERY NO: 286 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1608, 'København V');
+
+/* INSERT QUERY NO: 287 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1609, 'København V');
+
+/* INSERT QUERY NO: 288 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1610, 'København V');
+
+/* INSERT QUERY NO: 289 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1611, 'København V');
+
+/* INSERT QUERY NO: 290 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1612, 'København V');
+
+/* INSERT QUERY NO: 291 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1613, 'København V');
+
+/* INSERT QUERY NO: 292 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1614, 'København V');
+
+/* INSERT QUERY NO: 293 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1615, 'København V');
+
+/* INSERT QUERY NO: 294 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1616, 'København V');
+
+/* INSERT QUERY NO: 295 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1617, 'København V');
+
+/* INSERT QUERY NO: 296 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1618, 'København V');
+
+/* INSERT QUERY NO: 297 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1619, 'København V');
+
+/* INSERT QUERY NO: 298 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1620, 'København V');
+
+/* INSERT QUERY NO: 299 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1621, 'København V');
+
+/* INSERT QUERY NO: 300 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1622, 'København V');
+
+/* INSERT QUERY NO: 301 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1623, 'København V');
+
+/* INSERT QUERY NO: 302 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1624, 'København V');
+
+/* INSERT QUERY NO: 303 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1630, 'København V');
+
+/* INSERT QUERY NO: 304 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1631, 'København V');
+
+/* INSERT QUERY NO: 305 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1632, 'København V');
+
+/* INSERT QUERY NO: 306 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1633, 'København V');
+
+/* INSERT QUERY NO: 307 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1634, 'København V');
+
+/* INSERT QUERY NO: 308 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1635, 'København V');
+
+/* INSERT QUERY NO: 309 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1650, 'København V');
+
+/* INSERT QUERY NO: 310 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1651, 'København V');
+
+/* INSERT QUERY NO: 311 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1652, 'København V');
+
+/* INSERT QUERY NO: 312 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1653, 'København V');
+
+/* INSERT QUERY NO: 313 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1654, 'København V');
+
+/* INSERT QUERY NO: 314 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1655, 'København V');
+
+/* INSERT QUERY NO: 315 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1656, 'København V');
+
+/* INSERT QUERY NO: 316 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1657, 'København V');
+
+/* INSERT QUERY NO: 317 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1658, 'København V');
+
+/* INSERT QUERY NO: 318 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1659, 'København V');
+
+/* INSERT QUERY NO: 319 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1660, 'København V');
+
+/* INSERT QUERY NO: 320 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1661, 'København V');
+
+/* INSERT QUERY NO: 321 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1662, 'København V');
+
+/* INSERT QUERY NO: 322 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1663, 'København V');
+
+/* INSERT QUERY NO: 323 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1664, 'København V');
+
+/* INSERT QUERY NO: 324 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1665, 'København V');
+
+/* INSERT QUERY NO: 325 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1666, 'København V');
+
+/* INSERT QUERY NO: 326 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1667, 'København V');
+
+/* INSERT QUERY NO: 327 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1668, 'København V');
+
+/* INSERT QUERY NO: 328 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1669, 'København V');
+
+/* INSERT QUERY NO: 329 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1670, 'København V');
+
+/* INSERT QUERY NO: 330 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1671, 'København V');
+
+/* INSERT QUERY NO: 331 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1672, 'København V');
+
+/* INSERT QUERY NO: 332 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1673, 'København V');
+
+/* INSERT QUERY NO: 333 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1674, 'København V');
+
+/* INSERT QUERY NO: 334 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1675, 'København V');
+
+/* INSERT QUERY NO: 335 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1676, 'København V');
+
+/* INSERT QUERY NO: 336 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1677, 'København V');
+
+/* INSERT QUERY NO: 337 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1699, 'København V');
+
+/* INSERT QUERY NO: 338 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1700, 'København V');
+
+/* INSERT QUERY NO: 339 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1701, 'København V');
+
+/* INSERT QUERY NO: 340 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1702, 'København V');
+
+/* INSERT QUERY NO: 341 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1703, 'København V');
+
+/* INSERT QUERY NO: 342 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1704, 'København V');
+
+/* INSERT QUERY NO: 343 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1705, 'København V');
+
+/* INSERT QUERY NO: 344 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1706, 'København V');
+
+/* INSERT QUERY NO: 345 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1707, 'København V');
+
+/* INSERT QUERY NO: 346 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1708, 'København V');
+
+/* INSERT QUERY NO: 347 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1709, 'København V');
+
+/* INSERT QUERY NO: 348 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1710, 'København V');
+
+/* INSERT QUERY NO: 349 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1711, 'København V');
+
+/* INSERT QUERY NO: 350 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1712, 'København V');
+
+/* INSERT QUERY NO: 351 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1714, 'København V');
+
+/* INSERT QUERY NO: 352 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1715, 'København V');
+
+/* INSERT QUERY NO: 353 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1716, 'København V');
+
+/* INSERT QUERY NO: 354 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1717, 'København V');
+
+/* INSERT QUERY NO: 355 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1718, 'København V');
+
+/* INSERT QUERY NO: 356 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1719, 'København V');
+
+/* INSERT QUERY NO: 357 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1720, 'København V');
+
+/* INSERT QUERY NO: 358 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1721, 'København V');
+
+/* INSERT QUERY NO: 359 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1722, 'København V');
+
+/* INSERT QUERY NO: 360 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1723, 'København V');
+
+/* INSERT QUERY NO: 361 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1724, 'København V');
+
+/* INSERT QUERY NO: 362 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1725, 'København V');
+
+/* INSERT QUERY NO: 363 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1726, 'København V');
+
+/* INSERT QUERY NO: 364 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1727, 'København V');
+
+/* INSERT QUERY NO: 365 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1728, 'København V');
+
+/* INSERT QUERY NO: 366 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1729, 'København V');
+
+/* INSERT QUERY NO: 367 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1730, 'København V');
+
+/* INSERT QUERY NO: 368 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1731, 'København V');
+
+/* INSERT QUERY NO: 369 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1732, 'København V');
+
+/* INSERT QUERY NO: 370 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1733, 'København V');
+
+/* INSERT QUERY NO: 371 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1734, 'København V');
+
+/* INSERT QUERY NO: 372 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1735, 'København V');
+
+/* INSERT QUERY NO: 373 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1736, 'København V');
+
+/* INSERT QUERY NO: 374 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1737, 'København V');
+
+/* INSERT QUERY NO: 375 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1738, 'København V');
+
+/* INSERT QUERY NO: 376 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1739, 'København V');
+
+/* INSERT QUERY NO: 377 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1749, 'København V');
+
+/* INSERT QUERY NO: 378 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1750, 'København V');
+
+/* INSERT QUERY NO: 379 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1751, 'København V');
+
+/* INSERT QUERY NO: 380 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1752, 'København V');
+
+/* INSERT QUERY NO: 381 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1753, 'København V');
+
+/* INSERT QUERY NO: 382 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1754, 'København V');
+
+/* INSERT QUERY NO: 383 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1755, 'København V');
+
+/* INSERT QUERY NO: 384 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1756, 'København V');
+
+/* INSERT QUERY NO: 385 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1757, 'København V');
+
+/* INSERT QUERY NO: 386 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1758, 'København V');
+
+/* INSERT QUERY NO: 387 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1759, 'København V');
+
+/* INSERT QUERY NO: 388 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1760, 'København V');
+
+/* INSERT QUERY NO: 389 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1761, 'København V');
+
+/* INSERT QUERY NO: 390 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1762, 'København V');
+
+/* INSERT QUERY NO: 391 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1763, 'København V');
+
+/* INSERT QUERY NO: 392 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1764, 'København V');
+
+/* INSERT QUERY NO: 393 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1765, 'København V');
+
+/* INSERT QUERY NO: 394 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1766, 'København V');
+
+/* INSERT QUERY NO: 395 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1770, 'København V');
+
+/* INSERT QUERY NO: 396 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1771, 'København V');
+
+/* INSERT QUERY NO: 397 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1772, 'København V');
+
+/* INSERT QUERY NO: 398 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1773, 'København V');
+
+/* INSERT QUERY NO: 399 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1774, 'København V');
+
+/* INSERT QUERY NO: 400 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1775, 'København V');
+
+/* INSERT QUERY NO: 401 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1777, 'København V');
+
+/* INSERT QUERY NO: 402 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1780, 'København V');
+
+/* INSERT QUERY NO: 403 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1785, 'København V');
+
+/* INSERT QUERY NO: 404 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1786, 'København V');
+
+/* INSERT QUERY NO: 405 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1787, 'København V');
+
+/* INSERT QUERY NO: 406 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1790, 'København V');
+
+/* INSERT QUERY NO: 407 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1799, 'København V');
+
+/* INSERT QUERY NO: 408 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1800, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 409 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1801, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 410 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1802, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 411 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1803, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 412 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1804, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 413 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1805, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 414 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1806, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 415 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1807, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 416 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1808, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 417 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1809, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 418 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1810, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 419 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1811, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 420 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1812, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 421 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1813, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 422 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1814, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 423 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1815, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 424 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1816, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 425 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1817, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 426 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1818, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 427 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1819, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 428 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1820, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 429 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1822, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 430 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1823, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 431 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1824, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 432 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1825, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 433 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1826, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 434 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1827, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 435 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1828, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 436 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1829, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 437 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1850, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 438 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1851, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 439 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1852, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 440 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1853, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 441 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1854, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 442 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1855, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 443 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1856, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 444 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1857, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 445 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1860, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 446 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1861, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 447 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1862, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 448 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1863, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 449 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1864, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 450 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1865, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 451 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1866, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 452 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1867, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 453 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1868, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 454 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1870, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 455 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1871, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 456 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1872, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 457 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1873, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 458 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1874, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 459 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1875, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 460 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1876, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 461 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1877, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 462 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1878, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 463 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1879, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 464 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1900, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 465 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1901, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 466 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1902, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 467 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1903, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 468 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1904, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 469 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1905, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 470 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1906, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 471 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1908, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 472 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1909, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 473 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1910, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 474 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1911, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 475 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1912, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 476 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1913, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 477 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1914, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 478 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1915, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 479 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1916, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 480 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1917, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 481 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1920, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 482 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1921, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 483 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1922, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 484 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1923, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 485 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1924, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 486 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1925, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 487 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1926, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 488 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1927, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 489 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1928, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 490 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1950, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 491 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1951, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 492 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1952, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 493 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1953, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 494 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1954, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 495 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1955, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 496 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1956, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 497 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1957, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 498 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1958, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 499 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1959, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 500 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1960, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 501 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1961, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 502 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1962, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 503 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1963, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 504 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1964, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 505 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1965, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 506 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1966, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 507 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1967, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 508 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1970, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 509 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1971, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 510 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1972, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 511 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1973, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 512 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (1974, 'Frederiksberg C');
+
+/* INSERT QUERY NO: 513 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2000, 'Frederiksberg');
+
+/* INSERT QUERY NO: 514 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2100, 'København Ø');
+
+/* INSERT QUERY NO: 515 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2150, 'Nordhavn');
+
+/* INSERT QUERY NO: 516 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2200, 'København N');
+
+/* INSERT QUERY NO: 517 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2300, 'København S');
+
+/* INSERT QUERY NO: 518 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2400, 'København NV');
+
+/* INSERT QUERY NO: 519 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2450, 'København SV');
+
+/* INSERT QUERY NO: 520 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2500, 'Valby');
+
+/* INSERT QUERY NO: 521 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2600, 'Glostrup');
+
+/* INSERT QUERY NO: 522 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2605, 'Brøndby');
+
+/* INSERT QUERY NO: 523 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2610, 'Rødovre');
+
+/* INSERT QUERY NO: 524 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2620, 'Albertslund');
+
+/* INSERT QUERY NO: 525 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2625, 'Vallensbæk');
+
+/* INSERT QUERY NO: 526 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2630, 'Taastrup');
+
+/* INSERT QUERY NO: 527 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2635, 'Ishøj');
+
+/* INSERT QUERY NO: 528 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2640, 'Hedehusene');
+
+/* INSERT QUERY NO: 529 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2650, 'Hvidovre');
+
+/* INSERT QUERY NO: 530 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2660, 'Brøndby Strand');
+
+/* INSERT QUERY NO: 531 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2665, 'Vallensbæk Strand');
+
+/* INSERT QUERY NO: 532 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2670, 'Greve');
+
+/* INSERT QUERY NO: 533 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2680, 'Solrød Strand');
+
+/* INSERT QUERY NO: 534 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2690, 'Karlslunde');
+
+/* INSERT QUERY NO: 535 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2700, 'Brønshøj');
+
+/* INSERT QUERY NO: 536 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2720, 'Vanløse');
+
+/* INSERT QUERY NO: 537 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2730, 'Herlev');
+
+/* INSERT QUERY NO: 538 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2740, 'Skovlunde');
+
+/* INSERT QUERY NO: 539 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2750, 'Ballerup');
+
+/* INSERT QUERY NO: 540 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2760, 'Måløv');
+
+/* INSERT QUERY NO: 541 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2765, 'Smørum');
+
+/* INSERT QUERY NO: 542 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2770, 'Kastrup');
+
+/* INSERT QUERY NO: 543 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2791, 'Dragør');
+
+/* INSERT QUERY NO: 544 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2800, 'Kongens Lyngby');
+
+/* INSERT QUERY NO: 545 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2820, 'Gentofte');
+
+/* INSERT QUERY NO: 546 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2830, 'Virum');
+
+/* INSERT QUERY NO: 547 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2840, 'Holte');
+
+/* INSERT QUERY NO: 548 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2850, 'Nærum');
+
+/* INSERT QUERY NO: 549 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2860, 'Søborg');
+
+/* INSERT QUERY NO: 550 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2870, 'Dyssegård');
+
+/* INSERT QUERY NO: 551 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2880, 'Bagsværd');
+
+/* INSERT QUERY NO: 552 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2900, 'Hellerup');
+
+/* INSERT QUERY NO: 553 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2920, 'Charlottenlund');
+
+/* INSERT QUERY NO: 554 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2930, 'Klampenborg');
+
+/* INSERT QUERY NO: 555 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2942, 'Skodsborg');
+
+/* INSERT QUERY NO: 556 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2950, 'Vedbæk');
+
+/* INSERT QUERY NO: 557 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2960, 'Rungsted Kyst');
+
+/* INSERT QUERY NO: 558 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2970, 'Hørsholm');
+
+/* INSERT QUERY NO: 559 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2980, 'Kokkedal');
+
+/* INSERT QUERY NO: 560 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (2990, 'Nivå');
+
+/* INSERT QUERY NO: 561 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3000, 'Helsingør');
+
+/* INSERT QUERY NO: 562 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3050, 'Humlebæk');
+
+/* INSERT QUERY NO: 563 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3060, 'Espergærde');
+
+/* INSERT QUERY NO: 564 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3070, 'Snekkersten');
+
+/* INSERT QUERY NO: 565 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3080, 'Tikøb');
+
+/* INSERT QUERY NO: 566 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3100, 'Hornbæk');
+
+/* INSERT QUERY NO: 567 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3120, 'Dronningmølle');
+
+/* INSERT QUERY NO: 568 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3140, 'Ålsgårde');
+
+/* INSERT QUERY NO: 569 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3150, 'Hellebæk');
+
+/* INSERT QUERY NO: 570 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3200, 'Helsinge');
+
+/* INSERT QUERY NO: 571 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3210, 'Vejby');
+
+/* INSERT QUERY NO: 572 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3220, 'Tisvildeleje');
+
+/* INSERT QUERY NO: 573 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3230, 'Græsted');
+
+/* INSERT QUERY NO: 574 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3250, 'Gilleleje');
+
+/* INSERT QUERY NO: 575 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3300, 'Frederiksværk');
+
+/* INSERT QUERY NO: 576 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3310, 'Ølsted');
+
+/* INSERT QUERY NO: 577 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3320, 'Skævinge');
+
+/* INSERT QUERY NO: 578 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3330, 'Gørløse');
+
+/* INSERT QUERY NO: 579 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3360, 'Liseleje');
+
+/* INSERT QUERY NO: 580 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3370, 'Melby');
+
+/* INSERT QUERY NO: 581 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3390, 'Hundested');
+
+/* INSERT QUERY NO: 582 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3400, 'Hillerød');
+
+/* INSERT QUERY NO: 583 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3450, 'Allerød');
+
+/* INSERT QUERY NO: 584 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3460, 'Birkerød');
+
+/* INSERT QUERY NO: 585 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3480, 'Fredensborg');
+
+/* INSERT QUERY NO: 586 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3490, 'Kvistgård');
+
+/* INSERT QUERY NO: 587 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3500, 'Værløse');
+
+/* INSERT QUERY NO: 588 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3520, 'Farum');
+
+/* INSERT QUERY NO: 589 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3540, 'Lynge');
+
+/* INSERT QUERY NO: 590 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3550, 'Slangerup');
+
+/* INSERT QUERY NO: 591 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3600, 'Frederikssund');
+
+/* INSERT QUERY NO: 592 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3630, 'Jægerspris');
+
+/* INSERT QUERY NO: 593 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3650, 'Ølstykke');
+
+/* INSERT QUERY NO: 594 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3660, 'Stenløse');
+
+/* INSERT QUERY NO: 595 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3670, 'Veksø Sjælland');
+
+/* INSERT QUERY NO: 596 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3700, 'Rønne');
+
+/* INSERT QUERY NO: 597 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3720, 'Aakirkeby');
+
+/* INSERT QUERY NO: 598 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3730, 'Nexø');
+
+/* INSERT QUERY NO: 599 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3740, 'Svaneke');
+
+/* INSERT QUERY NO: 600 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3751, 'Østermarie');
+
+/* INSERT QUERY NO: 601 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3760, 'Gudhjem');
+
+/* INSERT QUERY NO: 602 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3770, 'Allinge');
+
+/* INSERT QUERY NO: 603 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3782, 'Klemensker');
+
+/* INSERT QUERY NO: 604 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (3790, 'Hasle');
+
+/* INSERT QUERY NO: 605 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (4000, 'Roskilde');
+
+/* INSERT QUERY NO: 606 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (4030, 'Tune');
+
+/* INSERT QUERY NO: 607 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (4040, 'Jyllinge');
+
+/* INSERT QUERY NO: 608 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (4050, 'Skibby');
+
+/* INSERT QUERY NO: 609 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (4060, 'Kirke Såby');
+
+/* INSERT QUERY NO: 610 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (4070, 'Kirke Hyllinge');
+
+/* INSERT QUERY NO: 611 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (4100, 'Ringsted');
+
+/* INSERT QUERY NO: 612 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (4130, 'Viby Sjælland');
+
+/* INSERT QUERY NO: 613 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (4140, 'Borup');
+
+/* INSERT QUERY NO: 614 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (4160, 'Herlufmagle');
+
+/* INSERT QUERY NO: 615 */
+INSERT INTO Zipcode(Zipcode, City)
+VALUES (4171, 'Glumsø');
+
 /* INSERT QUERY NO: 616 */
 INSERT INTO Zipcode(Zipcode, City)
 VALUES (4173, 'Fjenneslev');
