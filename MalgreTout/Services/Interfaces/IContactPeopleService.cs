@@ -17,5 +17,6 @@ namespace MalgreTout.Services.Interfaces
         void UpdateContactperson(Contactperson contactperson);
         Contactperson GetContactpersonByContactId(int id);
         Contactperson GetContactpersonByLocationId(int id);
+        Contactperson GetLastContactperson();
     }
 }

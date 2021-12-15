@@ -13,7 +13,9 @@ namespace MalgreTout.Pages.DistributionPoints
     {
         [BindProperty]
         public DistributionPoint DistributionPoint { get; set; } = new DistributionPoint();
+        [BindProperty]
         public Contactperson Contactperson { get; set; } = new Contactperson();
+        [BindProperty]
         public OpeningHour OpeningHour { get; set; } = new OpeningHour();
         public void OnGet(int id)
         {

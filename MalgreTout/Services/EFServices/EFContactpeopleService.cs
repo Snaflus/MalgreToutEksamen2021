@@ -70,6 +70,9 @@ namespace MalgreTout.Services.EFServices
                 .FirstOrDefault(m => m.LocationId == id);
             return contactperson;
         }
-
+        public Contactperson GetLastContactperson()
+        {
+            return context.Contactpeople.OrderBy(i => i.ContactId).Last();
+        }
     }
 }

@@ -13,5 +13,7 @@ namespace MalgreTout.Services.Interfaces
         void AddOpeningHour(OpeningHour openingHour);
         void DeleteOpeningHour(OpeningHour openingHour);
         void UpdateOpeningHour(OpeningHour openingHour);
+        OpeningHour GetOpeningHourByLocationId(int id);
+        OpeningHour GetLastOpeningHour();
     }
 }

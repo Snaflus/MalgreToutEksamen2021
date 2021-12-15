@@ -11,10 +11,14 @@ namespace MalgreTout.Pages.DistributionPoints
 {
     public class Create2Model : PageModel
     {
-        [BindProperty]
         public DistributionPoint DistributionPoint { get; set; } = new DistributionPoint();
+        [BindProperty]
         public Contactperson Contactperson { get; set; } = new Contactperson();
+        [BindProperty]
         public OpeningHour OpeningHour { get; set; } = new OpeningHour();
+
+        public int ContactpersonID;
+        public int OpeningHourID;
         public void OnGet()
         {
             DistributionPoint = distributionService.GetLastDistributionPoint();
@@ -22,6 +26,10 @@ namespace MalgreTout.Pages.DistributionPoints
             contactPeopleService.AddContactperson(Contactperson);
             OpeningHour.LocationId = DistributionPoint.LocationId;
             openingHourService.AddOpeningHour(OpeningHour);
+            Contactperson = contactPeopleService.GetContactpersonByLocationId(DistributionPoint.LocationId);
+            OpeningHour = openingHourService.GetOpeningHourByLocationId(DistributionPoint.LocationId);
+            OpeningHourID = OpeningHour.OpeningId;
+            ContactpersonID = Contactperson.ContactId;
         }
         IDistributionService distributionService;
         IContactPeopleService contactPeopleService;
@@ -38,6 +46,8 @@ namespace MalgreTout.Pages.DistributionPoints
             {
                 return Page();
             }
+            OpeningHour.OpeningId = OpeningHourID;
+            Contactperson.ContactId = ContactpersonID;
             contactPeopleService.UpdateContactperson(Contactperson);
             openingHourService.UpdateOpeningHour(OpeningHour);
             return RedirectToPage("GetDistributionPoints");

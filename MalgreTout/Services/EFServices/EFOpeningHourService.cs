@@ -33,5 +33,17 @@ namespace MalgreTout.Services.EFServices
             context.OpeningHours.Update(openingHour);
             context.SaveChangesAsync();
         }
+        public OpeningHour GetOpeningHourByLocationId(int id)
+        {
+            //return context.DistributionPoints.Find(id);
+            OpeningHour openingHour = context.OpeningHours
+                .AsNoTracking()
+                .FirstOrDefault(m => m.LocationId == id);
+            return openingHour;
+        }
+        public OpeningHour GetLastOpeningHour()
+        {
+            return context.OpeningHours.OrderBy(i => i.OpeningId).Last();
+        }
     }
 }

@@ -12,10 +12,8 @@ namespace MalgreTout.Pages.DistributionPoints
     public class DeleteModel : PageModel
     {
         [BindProperty]
-        public DistributionPoint DistributionPoint { get; set; }
-        
-        IDistributionService distributionService;
-       
+        public DistributionPoint DistributionPoint { get; set; }        
+        IDistributionService distributionService;       
         public DeleteModel(IDistributionService service)
         {
             this.distributionService = service;
