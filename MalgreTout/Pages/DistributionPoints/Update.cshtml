@@ -8,8 +8,8 @@
 			<div asp-validation-summary="  ModelOnly  " class="text-danger">
 			</div>
 			<div class="form-group">
-				<label asp-for="@Model.DistributionPoint.LocationId" class="control-label"></label>
-				<input asp-for="@Model.DistributionPoint.LocationId" class="form-control" />
+				<label hidden="hidden" asp-for="@Model.DistributionPoint.LocationId" class="control-label"></label>
+				<input hidden="hidden" asp-for="@Model.DistributionPoint.LocationId" class="form-control" />
 				<span asp-validation-for="@Model.DistributionPoint.LocationId" class="text-danger"></span>
 			</div>
 			<div class="form-group">
@@ -30,8 +30,8 @@
 			</div>
 			@*Opening hours*@
 			<div class="form-group">
-				<label asp-for="@Model.OpeningHour.LocationId" class="control-label"></label>
-				<input asp-for="@Model.OpeningHour.LocationId" value="@Model.DistributionPoint.LocationId" class="form-control" />
+				<label hidden="hidden" asp-for="@Model.OpeningHour.LocationId" class="control-label"></label>
+				<input hidden="hidden" asp-for="@Model.OpeningHour.LocationId" value="@Model.DistributionPoint.LocationId" class="form-control" />
 				<span asp-validation-for="@Model.OpeningHour.LocationId" class="text-danger"></span>
 			</div>
 			<div class="form-group">
@@ -46,8 +46,8 @@
 			</div>
 			@*Contact person*@
 			<div class="form-group">
-				<label asp-for="@Model.Contactperson.LocationId" class="control-label"></label>
-				<input asp-for="@Model.Contactperson.LocationId" value="@Model.DistributionPoint.LocationId" class="form-control" />
+				<label hidden="hidden" asp-for="@Model.Contactperson.LocationId" class="control-label"></label>
+				<input hidden="hidden" asp-for="@Model.Contactperson.LocationId" value="@Model.DistributionPoint.LocationId" class="form-control" />
 				<span asp-validation-for="@Model.Contactperson.LocationId" class="text-danger"></span>
 			</div>
 			<div class="form-group">

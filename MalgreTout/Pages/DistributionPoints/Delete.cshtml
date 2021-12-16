@@ -1,18 +1,19 @@
 ﻿@page
 @model MalgreTout.Pages.DistributionPoints.DeleteModel
 @{ ViewData["Title"] = "Slet lokation"; }
+<br /><br />
 <h3>Godkend slettelse af lokation</h3>
 <div>
 	<hr />
 	<form method="post">
 		<dl class="row">
 
-			<dt class="col-sm-2">
+			@*<dt class="col-sm-2">
 				@Html.DisplayNameFor(model => model.DistributionPoint.LocationId)
 			</dt>
 			<dd class="col-sm-10">
 				@Html.DisplayFor(model => model.DistributionPoint.LocationId)
-			</dd>
+			</dd>*@
 			<dt class="col-sm-2">
 				@Html.DisplayNameFor(model => model.DistributionPoint.Company)
 			</dt>
