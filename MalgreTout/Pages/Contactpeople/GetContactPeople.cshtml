@@ -17,19 +17,21 @@ else
 		{
 			<tr>
 				<th>Adresse</th>
-				@foreach (var item in Model.DistributionPoints)
-				{
-					@item.Address
-					<br />
-				}
+				<td>
+					@foreach (var item in Model.DistributionPoints)
+					{
+						@item.Address <br />
+					}
+				</td>
 			</tr>
 			<tr>
 				<th>Postnummer</th>
-				@foreach (var item in Model.DistributionPoints)
-				{
-					@item.Zipcode
-					<br />
-				}
+				<td>
+					@foreach (var item in Model.DistributionPoints)
+					{
+						@item.Zipcode <br />
+					}
+				</td>
 			</tr>
 			<tr>
 				<th>By</th>
@@ -38,6 +40,7 @@ else
 					{
 						@item.ZipcodeNavigation.City <br />
 					}
+				</td>
 			</tr>
 		}
 		else
