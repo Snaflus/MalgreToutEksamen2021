@@ -41,8 +41,7 @@ namespace MalgreTout.Pages.DistributionPoints
             distributionService.UpdateDistributionPoint(DistributionPoint);
             contactPeopleService.UpdateContactperson(Contactperson);
             openingHourService.UpdateOpeningHour(OpeningHour);
-            return null;
-            //return RedirectToPage("GetDistributionPoints");
+            return RedirectToPage("GetDistributionPoints");
         }
     }
 }

@@ -35,19 +35,19 @@ namespace MalgreTout.Services.EFServices
         public void AddContactperson(Contactperson contactperson)
         {
             context.Contactpeople.Add(contactperson);
-            context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
         public void DeleteContactperson(Contactperson contactperson)
         {
             context.Contactpeople.Remove(contactperson);
-            context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public async void UpdateContactperson(Contactperson contactperson)
+        public void UpdateContactperson(Contactperson contactperson)
         {
             context.Contactpeople.Update(contactperson);
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
         public Contactperson GetContactpersonByContactId(int id)

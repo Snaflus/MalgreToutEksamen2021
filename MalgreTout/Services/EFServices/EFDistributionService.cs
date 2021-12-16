@@ -45,19 +45,19 @@ namespace MalgreTout.Services.EFServices
         public void AddDistributionPoint(DistributionPoint distributionPoint)
         {
             context.DistributionPoints.Add(distributionPoint);
-            context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
         public void DeleteDistributionPoint(DistributionPoint distributionPoint)
         {
             context.DistributionPoints.Remove(distributionPoint);
-            context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public async void UpdateDistributionPoint(DistributionPoint distributionPoint)
+        public void UpdateDistributionPoint(DistributionPoint distributionPoint)
         {
             context.DistributionPoints.Update(distributionPoint);
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
         public DistributionPoint GetDistributionPointById(int id)

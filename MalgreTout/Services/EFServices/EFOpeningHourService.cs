@@ -30,19 +30,19 @@ namespace MalgreTout.Services.EFServices
         public void AddOpeningHour(OpeningHour openingHour)
         {
             context.OpeningHours.Add(openingHour);
-            context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
         public void DeleteOpeningHour(OpeningHour openingHour)
         {
             context.OpeningHours.Remove(openingHour);
-            context.SaveChangesAsync();
+            context.SaveChanges();
         }
 
-        public async void UpdateOpeningHour(OpeningHour openingHour)
+        public void UpdateOpeningHour(OpeningHour openingHour)
         {
             context.OpeningHours.Update(openingHour);
-            await context.SaveChangesAsync();
+            context.SaveChanges();
         }
         public OpeningHour GetOpeningHourByLocationId(int id)
         {

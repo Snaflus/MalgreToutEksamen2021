@@ -2,7 +2,14 @@
 @model MalgreTout.Pages.Contactpeople.GetContactPeopleModel
 @{ ViewData["Title"] = "Kontakt"; }
 
-<h1> @Html.DisplayFor(model => model.DistributionPoints.First().Company)</h1>
+@if (Model.DistributionPoints.First().Company != null)
+{
+	<h1> @Html.DisplayFor(model => model.DistributionPoints.First().Company)</h1>
+}
+else
+{
+	<h1>Fejl</h1>
+}
 
 <table class="table">
 	<tbody>
@@ -98,7 +105,6 @@
 						@i.WeekDay <br /> @i.OpenHours <br />
 					}
 				</td>
-				}
 			</tr>
 
 		}
