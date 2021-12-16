@@ -15,70 +15,67 @@ else
 	<tbody>
 		@if (Model.DistributionPoints.Count() != 0)
 		{
-			@foreach (var item in Model.DistributionPoints)
-			{
-				<tr>
-					<th>Adresse</th>
-					@if (item.Address == null)
+			<tr>
+				<th>Adresse</th>
+				@foreach (var item in Model.DistributionPoints)
+				{
+					@item.Address
+					<br />
+				}
+			</tr>
+			<tr>
+				<th>Postnummer</th>
+				@foreach (var item in Model.DistributionPoints)
+				{
+					@item.Zipcode
+					<br />
+				}
+			</tr>
+			<tr>
+				<th>By</th>
+				<td>
+					@foreach (var item in Model.DistributionPoints)
 					{
-						<td></td>
+						@item.ZipcodeNavigation.City <br />
 					}
-					else
-					{
-						<td>@item.Address</td>
-					}
-				</tr>
-				<tr>
-					<th>Postnummer</th>
-					@if (item.Zipcode == 0)
-					{
-						<td></td>
-					}
-					else
-					{
-						<td>@item.Zipcode</td>
-					}
-				</tr>
-				<tr>
-					<th>By</th>
-					@if (item.ZipcodeNavigation.City == null)
-					{
-						<td></td>
-					}
-					else
-					{
-						<td>@item.ZipcodeNavigation.City</td>
-					}
-				</tr>
-			}
+			</tr>
 		}
+		else
+		{
+			<tr>
+				<th>Adresse</th>
+				<td></td>
+			</tr>
+			<tr>
+				<th>Postnummer</th>
+				<td></td>
+			</tr>
+			<tr>
+				<th>By</th>
+				<td></td>
+			</tr>
+		}
+
 		@if (Model.Contactpeople.Count() != 0)
 		{
-			@foreach (var item in Model.Contactpeople)
-			{
-				<tr>
-					<th>Email</th>
-					@if (item.Email == null)
+			<tr>
+				<th>Email</th>
+				<td>
+					@foreach (var item in Model.Contactpeople)
 					{
-						<td></td>
+						@item.Email <br />
 					}
-					else
+				</td>
+			</tr>
+			<tr>
+				<th>Telefon</th>
+				<td>
+					@foreach (var item in Model.Contactpeople)
 					{
-						<td>@item.Email</td>
+						@item.Phone <br />
 					}
-				</tr>
-				<tr>
-					<th>Telefon</th>
-					@if (item.Phone == null)
-					{
-						<td></td>
-					}
-					else
-					{
-						<td>@item.Phone</td>
-					}
-				</tr>
-			}
+				</td>
+			</tr>
 		}
 		else
 		{
@@ -91,9 +88,6 @@ else
 				<td></td>
 			</tr>
 		}
-
-
-
 
 		@if (Model.OpeningHours.Count() != 0)
 		{
