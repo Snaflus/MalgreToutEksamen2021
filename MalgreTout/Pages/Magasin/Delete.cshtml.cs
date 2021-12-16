@@ -25,8 +25,8 @@ namespace MalgreTout.Pages.Magasin
         }
         public void OnGet(int id)
         {
-            DistributionPoint = distributionService.GetDistributionPointById(id);
-            Magazine = magasineService.GetMagasineByLocationId(id);
+            Magazine = magasineService.GetMagazine(id);
+            DistributionPoint = distributionService.GetDistributionPointById(Magazine.LocationId);
         }
         public IActionResult OnPost()
         {
