@@ -1,4 +1,47 @@
 ﻿@page
 @model MalgreTout.Pages.Magasin.CreateModel
-@{
-}
+@{ ViewData["Title"] = "Opret magasin"; }
+
+<div class="row">
+	<div class="col-md-4">
+
+		<form method="post">
+			<div asp-validation-summary="  ModelOnly  " class="text-danger">
+			</div>
+			@*<div class="form-group">
+					<label hidden="hidden" asp-for="@Model.Magazine.LocationId" class="control-label"></label>
+					<input hidden="hidden" asp-for="@Model.DistributionPoint.LocationId" class="form-control" />
+					<span asp-validation-for="@Model.DistributionPoint.LocationId" class="text-danger"></span>
+				</div>*@
+
+			<label for="location">Vælg en lokation:</label>
+			<select asp-for="@Model.Magazine.LocationId" id="location">
+				@foreach (var item in Model.DistributionPoints)
+				{
+					<option value="@item.LocationId">@item.Company</option>
+				}
+			</select>
+
+			<div class="form-group">
+				<label asp-for="@Model.Magazine.MagazineIssue" class="control-label"></label>
+				<input asp-for="@Model.Magazine.MagazineIssue" class="form-control" />
+				<span asp-validation-for="@Model.Magazine.MagazineIssue" class="text-danger"></span>
+			</div>
+
+			<div class="form-group">
+				<label asp-for="@Model.Magazine.SuppliedMagazine" class="control-label"></label>
+				<input asp-for="@Model.Magazine.SuppliedMagazine" class="form-control" />
+				<span asp-validation-for="@Model.Magazine.SuppliedMagazine" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="@Model.Magazine.DeliveredMagazine" class="control-label"></label>
+				<input asp-for="@Model.Magazine.DeliveredMagazine" class="form-control" />
+				<span asp-validation-for="@Model.Magazine.DeliveredMagazine" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Create" class="btn btn-primary" />|
+				<a asp-page="GetDistributionPoints">Tilbage til liste</a>
+			</div>
+		</form>
+	</div>
+</div>
