@@ -35,6 +35,11 @@
 				<span asp-validation-for="@Model.OpeningHour.LocationId" class="text-danger"></span>
 			</div>
 			<div class="form-group">
+				<label hidden="hidden" asp-for="@Model.OpeningHour.OpeningId" class="control-label"></label>
+				<input hidden="hidden" asp-for="@Model.OpeningHour.OpeningId" class="form-control" />
+				<span asp-validation-for="@Model.OpeningHour.OpeningId" class="text-danger"></span>
+			</div>
+			<div class="form-group">
 				<label asp-for="@Model.OpeningHour.WeekDay" class="control-label"></label>
 				<input asp-for="@Model.OpeningHour.WeekDay" class="form-control" />
 				<span asp-validation-for="@Model.OpeningHour.WeekDay" class="text-danger"></span>
@@ -49,6 +54,11 @@
 				<label hidden="hidden" asp-for="@Model.Contactperson.LocationId" class="control-label"></label>
 				<input hidden="hidden" asp-for="@Model.Contactperson.LocationId" value="@Model.DistributionPoint.LocationId" class="form-control" />
 				<span asp-validation-for="@Model.Contactperson.LocationId" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label hidden="hidden" asp-for="@Model.Contactperson.ContactId" class="control-label"></label>
+				<input hidden="hidden" asp-for="@Model.Contactperson.ContactId" class="form-control" />
+				<span asp-validation-for="@Model.Contactperson.ContactId" class="text-danger"></span>
 			</div>
 			<div class="form-group">
 				<label asp-for="@Model.Contactperson.Contactperson1" class="control-label"></label>

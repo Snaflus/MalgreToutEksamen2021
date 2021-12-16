@@ -9,11 +9,11 @@
 		<dl class="row">
 
 			@*<dt class="col-sm-2">
-				@Html.DisplayNameFor(model => model.DistributionPoint.LocationId)
-			</dt>
-			<dd class="col-sm-10">
-				@Html.DisplayFor(model => model.DistributionPoint.LocationId)
-			</dd>*@
+			@Html.DisplayNameFor(model => model.DistributionPoint.LocationId)
+		</dt>
+		<dd class="col-sm-10">
+			@Html.DisplayFor(model => model.DistributionPoint.LocationId)
+		</dd>*@
 			<dt class="col-sm-2">
 				@Html.DisplayNameFor(model => model.DistributionPoint.Company)
 			</dt>
@@ -31,6 +31,37 @@
 			</dt>
 			<dd class="col-sm-10">
 				@Html.DisplayFor(model => model.DistributionPoint.Zipcode)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.DistributionPoint.ZipcodeNavigation.City)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.DistributionPoint.ZipcodeNavigation.City)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Contactperson.Contactperson1)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Contactperson.Contactperson1)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Contactperson.Email)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Contactperson.Email)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Contactperson.Phone)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Contactperson.Phone)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.OpeningHour.OpenHours)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.OpeningHour.WeekDay)
+				@Html.DisplayFor(model => model.OpeningHour.OpenHours)
 			</dd>
 		</dl>
 
