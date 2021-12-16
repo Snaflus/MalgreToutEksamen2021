@@ -50,5 +50,17 @@ namespace MalgreTout.Services.EFServices
             context.NoOfMagazines.Update(magasine);
             context.SaveChanges();
         }
+
+        public NoOfMagazine GetMagasineByLocationId(int id)
+        {
+            NoOfMagazine magazine = context.NoOfMagazines
+                .Include(s => s.Location)
+                .Include(c => c.Location.Contactpeople)
+                .Include(v => v.Location.ZipcodeNavigation)
+                .Include(i => i.Location.OpeningHours)
+                .AsNoTracking()
+                .FirstOrDefault(m => m.LocationId == id);
+            return magazine;
+        }
     }
 }

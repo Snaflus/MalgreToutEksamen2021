@@ -15,5 +15,6 @@ namespace MalgreTout.Services.Interfaces
         void AddMagasine(NoOfMagazine magasine);
         void DeleteMagasine(NoOfMagazine magasine);
         void UpdateMagasine(NoOfMagazine magasine);
+        NoOfMagazine GetMagasineByLocationId(int id);
     }
 }

@@ -1,4 +1,76 @@
 ﻿@page
 @model MalgreTout.Pages.Magasin.DeleteModel
-@{
-}
+@{ ViewData["Title"] = "Slet magasin"; }
+<br />
+<br />
+<h3>Godkend slettelse af magasin</h3>
+<div>
+	<hr />
+	<form method="post">
+		<dl class="row">
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Magazine.MagazineIssue)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Magazine.MagazineIssue)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Magazine.SuppliedMagazine)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Magazine.SuppliedMagazine)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Magazine.DeliveredMagazine)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Magazine.DeliveredMagazine)
+			</dd>
+
+
+			<dt class="col-sm-2">
+				<br />
+			</dt>
+			<dd class="col-sm-10">
+				<br />
+			</dd>
+			<dt class="col-sm-0">
+				<br />
+			</dt>
+			<dd class="col-sm-12">
+				Magasin data tilhører følgende lokation:
+			</dd>
+
+
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.DistributionPoint.Company)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.DistributionPoint.Company)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.DistributionPoint.Address)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.DistributionPoint.Address)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.DistributionPoint.Zipcode)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.DistributionPoint.Zipcode)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.DistributionPoint.ZipcodeNavigation.City)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.DistributionPoint.ZipcodeNavigation.City)
+			</dd>
+		</dl>
+
+
+		<input type="hidden" asp-for="Magazine.MagasineId" />
+		<input type="submit" value="Delete" class="btn btn-danger" /> |
+		<a asp-page="GetMagasines">Tilbage til liste</a>
+	</form>
+</div>
