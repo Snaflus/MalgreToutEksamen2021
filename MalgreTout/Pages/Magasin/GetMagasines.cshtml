@@ -1,0 +1,73 @@
+﻿@page
+@model MalgreTout.Pages.Magasin.GetMagasinesModel
+@{ ViewData["Title"] = "Magasiner"; }
+<br />
+<br />
+<p>
+	<a asp-page="/Magasin/Create">Opret magasin</a>
+</p>
+<form>
+	<p>
+		Søg udgave: <input type="number" asp-for="FilterCriteria" />
+		<input type="submit" value="Filter" />
+		<a asp-page="/Magasin/GetMagasines">Tilbage til liste </a>
+	</p>
+</form>
+<table class="table">
+	<thead>
+		<tr>
+			<th>Magasin udgave</th>
+			<th>Leveret magasiner</th>
+			<th>Uddelte magasiner </th>
+			<th>Firmanavn</th>
+			<th>Adresse</th>
+			<th>By</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@if (Model.Magazines != null)
+		{
+
+			@foreach (var item in Model.Magazines)
+			{
+				<tr>
+					<td>  @item.MagazineIssue </td>
+					<td>  @item.SuppliedMagazine </td>
+					<td>  @item.DeliveredMagazine </td>
+					<td>  @item.Location.Company </td>
+					<td>  @item.Location.Address </td>
+
+					@if (item.Location.ZipcodeNavigation.City == null)
+					{
+						<td></td>
+					}
+					else
+					{
+						<td>  @item.Location.ZipcodeNavigation.City</td>
+					}
+
+
+
+
+					<td>
+						<a asp-page="../Contactpeople/GetContactPeople" asp-route-id="@item.LocationId">
+							<input type="button" onclick="" value="Kontakt" class="btn btn-primary" />
+						</a>
+					</td>
+
+
+					<td>
+						<p>
+							<a asp-page="/Magasin/Update" asp-route-id="@item.MagasineId">Opdater</a>
+						</p>
+						<p>
+							<a asp-page="/Magasin/Delete" asp-route-id="@item.MagasineId">Slet</a>
+						</p>
+					</td>
+				</tr>
+			}
+		}
+	</tbody>
+</table>
+

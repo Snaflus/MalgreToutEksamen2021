@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MalgreTout.Pages
 {
-    public class TryktMagasinModel : PageModel
+    public class GoogleMapsModel : PageModel
     {
         public void OnGet()
         {

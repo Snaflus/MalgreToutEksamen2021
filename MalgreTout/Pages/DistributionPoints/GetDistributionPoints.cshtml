@@ -12,11 +12,9 @@
 		<a asp-page="/DistributionPoints/GetDistributionPoints">Tilbage til liste </a>
 	</p>
 </form>
-@*<h4 style="color:red"> Liste af lokationer</h4>*@
 <table class="table">
 	<thead>
 		<tr>
-			@*<th>Lokation ID</th>*@
 			<th>Firmanavn</th>
 			<th>Adresse</th>
 			<th>Postnummer </th>
@@ -30,7 +28,6 @@
 			@foreach (var item in Model.DistributionPoints)
 			{
 				<tr>
-					@*<td>  @item.LocationId </td>*@
 					<td>  @item.Company </td>
 					<td>  @item.Address </td>
 					<td>  @item.Zipcode </td>

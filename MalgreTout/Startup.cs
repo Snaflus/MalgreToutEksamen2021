@@ -35,6 +35,8 @@ namespace MalgreTout
             services.AddTransient<IContactPeopleService, EFContactpeopleService>();
 
             services.AddTransient<IOpeningHourService, EFOpeningHourService>();
+
+            services.AddTransient<IMagasineService, EFMagasineService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
