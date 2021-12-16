@@ -10,6 +10,8 @@ namespace MalgreTout.Services.Interfaces
 {
     public interface IOpeningHourService
     {
+        IEnumerable<OpeningHour> GetOpeningHours();
+        IEnumerable<OpeningHour> GetOpeningHours(int id);
         void AddOpeningHour(OpeningHour openingHour);
         void DeleteOpeningHour(OpeningHour openingHour);
         void UpdateOpeningHour(OpeningHour openingHour);

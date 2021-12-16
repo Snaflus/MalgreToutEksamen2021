@@ -44,10 +44,10 @@ namespace MalgreTout.Services.EFServices
             context.SaveChangesAsync();
         }
 
-        public void UpdateContactperson(Contactperson contactperson)
+        public async void UpdateContactperson(Contactperson contactperson)
         {
             context.Contactpeople.Update(contactperson);
-            context.SaveChangesAsync();
+            await context.SaveChangesAsync();
         }
 
         public Contactperson GetContactpersonByContactId(int id)

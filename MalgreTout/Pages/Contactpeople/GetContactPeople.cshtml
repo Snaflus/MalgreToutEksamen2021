@@ -18,7 +18,7 @@
 					}
 					else
 					{
-						<td> @item.Address</td>
+						<td>@item.Address</td>
 					}
 				</tr>
 				<tr>
@@ -29,7 +29,7 @@
 					}
 					else
 					{
-						<td> @item.Zipcode</td>
+						<td>@item.Zipcode</td>
 					}
 				</tr>
 				<tr>
@@ -40,7 +40,7 @@
 					}
 					else
 					{
-						<td> @item.ZipcodeNavigation.City</td>
+						<td>@item.ZipcodeNavigation.City</td>
 					}
 				</tr>
 			}
@@ -57,7 +57,7 @@
 					}
 					else
 					{
-						<td> @item.Email</td>
+						<td>@item.Email</td>
 					}
 				</tr>
 				<tr>
@@ -68,33 +68,46 @@
 					}
 					else
 					{
-						<td>  @item.Phone</td>
-					}
-				</tr>
-				<tr>
-					<th>Åbningstider</th>
-					@if (item.Location.OpeningHours.Count == 0)
-					{
-						<td></td>
-						<td></td>
-					}
-					else
-					{
-						<td>
-							@foreach (var i in item.Location.OpeningHours)
-							{
-								@i.WeekDay <br /> @i.OpenHours <br />
-							}
-						</td>
+						<td>@item.Phone</td>
 					}
 				</tr>
 			}
 		}
 		else
-		{ /*Fejlhåndtering hvis kontakt data ikke findes*/
-			<tr><th>Email</th><td></td></tr>
-			<tr><th>Telefon</th><td></td></tr>
-			<tr><th>Åbningstider</th><td><td></td></tr>
+		{
+			<tr>
+				<th>Email</th>
+				<td></td>
+			</tr>
+			<tr>
+				<th>Telefon</th>
+				<td></td>
+			</tr>
+		}
+
+
+
+
+		@if (Model.OpeningHours.Count() != 0)
+		{
+			<tr>
+				<th>Åbningstider</th>
+				<td>
+					@foreach (var i in Model.OpeningHours)
+					{
+						@i.WeekDay <br /> @i.OpenHours <br />
+					}
+				</td>
+				}
+			</tr>
+
+		}
+		else
+		{
+			<tr>
+				<th>Åbningstider</th>
+				<td></td>
+			</tr>
 		}
 	</tbody>
 </table>

@@ -16,6 +16,17 @@ namespace MalgreTout.Services.EFServices
             context = service;
         }
 
+        public IEnumerable<OpeningHour> GetOpeningHours(int filter)
+        {
+            return context.OpeningHours
+                .Where(s => s.LocationId.Equals(filter)).AsNoTracking().ToList();
+        }
+
+        public IEnumerable<OpeningHour> GetOpeningHours()
+        {
+            return context.OpeningHours;
+        }
+
         public void AddOpeningHour(OpeningHour openingHour)
         {
             context.OpeningHours.Add(openingHour);
@@ -28,10 +39,10 @@ namespace MalgreTout.Services.EFServices
             context.SaveChangesAsync();
         }
 
-        public void UpdateOpeningHour(OpeningHour openingHour)
+        public async void UpdateOpeningHour(OpeningHour openingHour)
         {
             context.OpeningHours.Update(openingHour);
-            context.SaveChangesAsync();
+            await context.SaveChangesAsync();
         }
         public OpeningHour GetOpeningHourByLocationId(int id)
         {

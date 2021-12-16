@@ -35,7 +35,7 @@ namespace MalgreTout.Pages.DistributionPoints
             {
                 return Page();
             }
-            contactPeopleService.AddContactperson(Contactperson);
+            contactPeopleService.AddContactperson(Contactperson);            
             openingHourService.AddOpeningHour(OpeningHour);
             return RedirectToPage("GetDistributionPoints");
         }

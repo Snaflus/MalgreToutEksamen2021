@@ -54,10 +54,10 @@ namespace MalgreTout.Services.EFServices
             context.SaveChangesAsync();
         }
 
-        public void UpdateDistributionPoint(DistributionPoint distributionPoint)
+        public async void UpdateDistributionPoint(DistributionPoint distributionPoint)
         {
             context.DistributionPoints.Update(distributionPoint);
-            context.SaveChangesAsync();
+            await context.SaveChangesAsync();
         }
 
         public DistributionPoint GetDistributionPointById(int id)
