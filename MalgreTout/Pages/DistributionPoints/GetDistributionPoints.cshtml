@@ -1,7 +1,7 @@
 ﻿@page
 @model MalgreTout.Pages.DistributionPoints.GetDistributionPointsModel
 @{ ViewData["Title"] = "Lokationer"; }
-<h1>Lokationer</h1>
+<br /><br />
 <p>
 	<a asp-page="/DistributionPoints/Create">Opret lokation</a>
 </p>
@@ -12,7 +12,7 @@
 		<a asp-page="/DistributionPoints/GetDistributionPoints">Tilbage til liste </a>
 	</p>
 </form>
-<h4 style="color:red"> Liste af lokationer</h4>
+@*<h4 style="color:red"> Liste af lokationer</h4>*@
 <table class="table">
 	<thead>
 		<tr>
@@ -22,8 +22,6 @@
 			<th>Postnummer </th>
 			<th>Bynavn</th>
 			<th></th>
-			@*<th>Telefon</th>
-				<th>Email</th>*@
 		</tr>
 	</thead>
 	<tbody>

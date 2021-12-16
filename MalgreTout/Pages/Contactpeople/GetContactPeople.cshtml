@@ -1,7 +1,7 @@
 ﻿@page
 @model MalgreTout.Pages.Contactpeople.GetContactPeopleModel
 @{ ViewData["Title"] = "Kontakt"; }
-
+<br /><br />
 @if (Model.DistributionPoints.First().Company != null)
 {
 	<h1> @Html.DisplayFor(model => model.DistributionPoints.First().Company)</h1>
