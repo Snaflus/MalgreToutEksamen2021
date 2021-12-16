@@ -25,8 +25,6 @@ namespace MalgreTout.Pages.Magasin
         public void OnGet()
         {
             DistributionPoints = distributionService.GetDistributionPoints();
-            //FilterCriteriaString = FilterCriteria.ToString();
-            //if (!String.IsNullOrEmpty(FilterCriteriaString))
             if(FilterCriteria != 0)
             {
                 Magazines = magasineService.GetMagazines(FilterCriteria);
